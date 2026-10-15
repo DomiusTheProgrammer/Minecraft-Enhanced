@@ -17,7 +17,11 @@
                 "texture": "me:obsidian_sword"
             },
             "minecraft:damage": 8,
-            "minecraft:is_sword": {},
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_sword"
+                ]
+            },
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "sword",

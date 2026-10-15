@@ -107,7 +107,6 @@ function applyBlockDurability(entity, amount, expectedTypeId) {
   const enchantable = held.item.getComponent("minecraft:enchantable");
   const unbreakingLevel = enchantable?.getEnchantment("unbreaking")?.level ?? 0;
   const scriptedLoss = getDurabilityLoss(amount, unbreakingLevel);
-
   const targetDamage = previous + scriptedLoss;
   const selectedSlotIndex =
     entity.typeId === "minecraft:player" ? entity.selectedSlotIndex : undefined;
@@ -133,11 +132,7 @@ function applyBlockDurability(entity, amount, expectedTypeId) {
         );
         applied = true;
       }
-    } else if (
-      stillSelectedSlot &&
-      !current &&
-      selectedSlotIndex !== undefined
-    ) {
+    } else if (stillSelectedSlot && !current && selectedSlotIndex !== undefined) {
       const originalDurability = held.item.getComponent("minecraft:durability");
       if (originalDurability) {
         originalDurability.damage = targetDamage;

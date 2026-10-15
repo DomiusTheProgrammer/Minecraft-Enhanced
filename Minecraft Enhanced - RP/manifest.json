@@ -27,6 +27,9 @@
       ]
     }
   ],
+  "capabilities": [
+    "pbr"
+  ],
   "metadata": {
     "authors": [
       "DomiusTheProgrammer"

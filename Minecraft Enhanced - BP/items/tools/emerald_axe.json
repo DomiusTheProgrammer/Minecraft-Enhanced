@@ -17,16 +17,20 @@
                 "texture": "me:emerald_axe"
             },
             "minecraft:damage": 6,
-            "minecraft:is_axe": {},
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
                         "speed": 6.0,
                         "block": {
-                            "tags": "q.any_tag('minecraft:is_tool_item_destructible','minecraft:is_axe_item_destructible')"
+                            "tags": "query.any_tag('minecraft:is_tool_item_destructible','minecraft:is_axe_item_destructible')"
                         }
                     }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_axe"
                 ]
             },
             "minecraft:hand_equipped": true,

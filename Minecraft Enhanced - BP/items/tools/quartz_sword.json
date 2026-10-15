@@ -17,7 +17,6 @@
                 "texture": "me:quartz_sword"
             },
             "minecraft:damage": 5,
-            "minecraft:is_sword": {},
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
@@ -29,6 +28,11 @@
                         "block": "minecraft:bamboo",
                         "speed": 10
                     }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_sword"
                 ]
             },
             "minecraft:hand_equipped": true,

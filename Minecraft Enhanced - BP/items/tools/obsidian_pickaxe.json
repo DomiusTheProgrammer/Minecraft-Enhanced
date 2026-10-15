@@ -17,7 +17,6 @@
                 "texture": "me:obsidian_pickaxe"
             },
             "minecraft:damage": 8,
-            "minecraft:is_pickaxe": {},
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
@@ -27,6 +26,11 @@
                             "tags": "query.any_tag('stone', 'iron_pick_diggable', 'minecraft:is_pickaxe_item_destructible')"
                         }
                     }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_pickaxe"
                 ]
             },
             "minecraft:hand_equipped": true,

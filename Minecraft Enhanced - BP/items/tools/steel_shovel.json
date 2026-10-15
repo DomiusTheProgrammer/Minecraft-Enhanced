@@ -17,7 +17,6 @@
                 "texture": "me:steel_shovel"
             },
             "minecraft:damage": 7,
-            "minecraft:is_shovel": {},
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
@@ -31,6 +30,7 @@
             },
             "minecraft:tags": {
                 "tags": [
+                    "minecraft:is_shovel",
                     "minecraft:iron_tier",
                     "minecraft:transformable_items"
                 ]

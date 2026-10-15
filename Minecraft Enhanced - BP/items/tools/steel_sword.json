@@ -17,9 +17,9 @@
                 "texture": "me:steel_sword"
             },
             "minecraft:damage": 7,
-            "minecraft:is_sword": {},
             "minecraft:tags": {
                 "tags": [
+                    "minecraft:is_sword",
                     "minecraft:iron_tier",
                     "minecraft:transformable_items"
                 ]
