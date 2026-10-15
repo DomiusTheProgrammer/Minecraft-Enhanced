@@ -16,7 +16,7 @@
             },
             "minecraft:max_stack_size": 1,
             "minecraft:display_name": {
-                "value": "me:steel_leggings.name"
+                "value": "item.me:steel_leggings.name"
             },
             "minecraft:icon": {
                 "texture": "me:steel_leggings"

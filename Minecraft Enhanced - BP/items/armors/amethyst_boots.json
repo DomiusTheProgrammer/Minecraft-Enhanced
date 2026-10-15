@@ -16,7 +16,7 @@
             },
             "minecraft:max_stack_size": 1,
             "minecraft:display_name": {
-                "value": "me:amethyst_boots.name"
+                "value": "item.me:amethyst_boots.name"
             },
             "minecraft:icon": {
                 "texture": "me:amethyst_boots"

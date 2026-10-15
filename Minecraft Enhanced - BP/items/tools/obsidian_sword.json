@@ -11,7 +11,7 @@
         "components": {
             "minecraft:max_stack_size": 1,
             "minecraft:display_name": {
-                "value": "me:obsidian_sword.name"
+                "value": "item.me:obsidian_sword.name"
             },
             "minecraft:icon": {
                 "texture": "me:obsidian_sword"

@@ -11,7 +11,7 @@
         "components": {
             "minecraft:max_stack_size": 1,
             "minecraft:display_name": {
-                "value": "me:quartz_axe.name"
+                "value": "item.me:quartz_axe.name"
             },
             "minecraft:icon": {
                 "texture": "me:quartz_axe"

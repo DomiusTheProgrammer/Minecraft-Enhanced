@@ -11,7 +11,7 @@
         "components": {
             "minecraft:max_stack_size": 1,
             "minecraft:display_name": {
-                "value": "me:steel_hoe.name"
+                "value": "item.me:steel_hoe.name"
             },
             "minecraft:icon": {
                 "texture": "me:steel_hoe"

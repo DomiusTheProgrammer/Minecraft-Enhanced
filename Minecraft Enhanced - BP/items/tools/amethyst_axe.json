@@ -11,7 +11,7 @@
         "components": {
             "minecraft:max_stack_size": 1,
             "minecraft:display_name": {
-                "value": "me:amethyst_axe.name"
+                "value": "item.me:amethyst_axe.name"
             },
             "minecraft:icon": {
                 "texture": "me:amethyst_axe"

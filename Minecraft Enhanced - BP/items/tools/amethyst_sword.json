@@ -11,7 +11,7 @@
         "components": {
             "minecraft:max_stack_size": 1,
             "minecraft:display_name": {
-                "value": "me:amethyst_sword.name"
+                "value": "item.me:amethyst_sword.name"
             },
             "minecraft:icon": {
                 "texture": "me:amethyst_sword"
