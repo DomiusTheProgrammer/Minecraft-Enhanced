@@ -17,6 +17,7 @@
                 "texture": "me:amethyst_axe"
             },
             "minecraft:damage": 6,
+            "minecraft:is_axe": {},
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
@@ -33,9 +34,6 @@
                         "speed": 6.0
                     }
                 ]
-            },
-            "minecraft:tags": {
-                "tags": []
             },
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {

@@ -13,14 +13,13 @@
             "minecraft:display_name": {
                 "value": "item.me:steel_sword.name"
             },
-            "me:sword_durability": {},
             "minecraft:icon": {
                 "texture": "me:steel_sword"
             },
             "minecraft:damage": 7,
+            "minecraft:is_sword": {},
             "minecraft:tags": {
                 "tags": [
-                    "minecraft:is_sword",
                     "minecraft:iron_tier",
                     "minecraft:transformable_items"
                 ]
@@ -31,11 +30,7 @@
                 "value": 12
             },
             "minecraft:durability": {
-                "max_durability": 1100,
-                "damage_chance": {
-                    "min": 0,
-                    "max": 0
-                }
+                "max_durability": 1100
             },
             "minecraft:digger": {
                 "use_efficiency": true,

@@ -1,13 +1,5 @@
 import { system, world } from "@minecraft/server";
 
-system.beforeEvents.startup.subscribe(({ itemComponentRegistry }) => {
-  itemComponentRegistry.registerCustomComponent("me:sword_durability", {
-    onBeforeDurabilityDamage(event) {
-      event.durabilityDamage = 1;
-    },
-  });
-});
-
 const toolTypes = new Set(["axe", "hoe", "pickaxe", "shovel"]);
 const effectiveBlockTags = new Map([
   [
@@ -63,6 +55,25 @@ function getMainhand(entity) {
   const item = mainhand?.getItem();
   return mainhand && item ? { mainhand, item } : undefined;
 }
+
+function restoreSwordDurability(entity) {
+  const held = getMainhand(entity);
+  if (!held || getItemType(held.item) !== "sword") {
+    return;
+  }
+
+  const durability = held.item.getComponent("minecraft:durability");
+  if (!durability || durability.damage === 0) {
+    return;
+  }
+
+  durability.damage -= 1;
+  held.mainhand.setItem(held.item);
+}
+
+world.afterEvents.entityHitEntity.subscribe(({ damagingEntity }) => {
+  system.run(() => restoreSwordDurability(damagingEntity));
+});
 
 function captureMainhandDurability() {
   for (const player of world.getAllPlayers()) {

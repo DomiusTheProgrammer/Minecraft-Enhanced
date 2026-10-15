@@ -13,14 +13,11 @@
             "minecraft:display_name": {
                 "value": "item.me:obsidian_sword.name"
             },
-            "me:sword_durability": {},
             "minecraft:icon": {
                 "texture": "me:obsidian_sword"
             },
             "minecraft:damage": 8,
-            "minecraft:tags": {
-                "tags": ["minecraft:is_sword"]
-            },
+            "minecraft:is_sword": {},
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "sword",
@@ -40,11 +37,7 @@
                 ]
             },
             "minecraft:durability": {
-                "max_durability": 375,
-                "damage_chance": {
-                    "min": 0,
-                    "max": 0
-                }
+                "max_durability": 375
             },
             "minecraft:repairable": {
                 "repair_items": [

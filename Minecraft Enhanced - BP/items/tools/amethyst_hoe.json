@@ -17,6 +17,7 @@
                 "texture": "me:amethyst_hoe"
             },
             "minecraft:damage": 6,
+            "minecraft:is_hoe": {},
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
@@ -27,9 +28,6 @@
                         }
                     }
                 ]
-            },
-            "minecraft:tags": {
-                "tags": []
             },
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {

@@ -17,6 +17,7 @@
                 "texture": "me:steel_axe"
             },
             "minecraft:damage": 7,
+            "minecraft:is_axe": {},
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
@@ -40,11 +41,7 @@
                 "value": 12
             },
             "minecraft:durability": {
-                "max_durability": 1100,
-                "damage_chance": {
-                    "min": 0,
-                    "max": 0
-                }
+                "max_durability": 1100
             },
             "minecraft:repairable": {
                 "repair_items": [

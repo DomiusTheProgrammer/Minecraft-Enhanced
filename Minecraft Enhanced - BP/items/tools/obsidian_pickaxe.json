@@ -17,6 +17,7 @@
                 "texture": "me:obsidian_pickaxe"
             },
             "minecraft:damage": 8,
+            "minecraft:is_pickaxe": {},
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
@@ -28,20 +29,13 @@
                     }
                 ]
             },
-            "minecraft:tags": {
-                "tags": []
-            },
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "pickaxe",
                 "value": 6
             },
             "minecraft:durability": {
-                "max_durability": 375,
-                "damage_chance": {
-                    "min": 0,
-                    "max": 0
-                }
+                "max_durability": 375
             },
             "minecraft:repairable": {
                 "repair_items": [

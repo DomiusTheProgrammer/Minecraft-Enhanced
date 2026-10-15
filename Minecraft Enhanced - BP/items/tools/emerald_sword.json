@@ -13,14 +13,11 @@
             "minecraft:display_name": {
                 "value": "item.me:emerald_sword.name"
             },
-            "me:sword_durability": {},
             "minecraft:icon": {
                 "texture": "me:emerald_sword"
             },
             "minecraft:damage": 6,
-            "minecraft:tags": {
-                "tags": ["minecraft:is_sword"]
-            },
+            "minecraft:is_sword": {},
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
@@ -40,11 +37,7 @@
                 "value": 16
             },
             "minecraft:durability": {
-                "max_durability": 350,
-                "damage_chance": {
-                    "min": 0,
-                    "max": 0
-                }
+                "max_durability": 350
             },
             "minecraft:repairable": {
                 "repair_items": [
