@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "mvt:quartz_sword",
+            "identifier": "me:quartz_sword",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.sword"
@@ -16,14 +16,14 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.mvt:quartz_sword.name"
+                "value": "item.me:quartz_sword.name"
             },
             "minecraft:damage": 5.0,
             "minecraft:tags": {
                 "tags": [
                     "minecraft:sword",
                     "minecraft:is_sword",
-                    "mvt:durability"
+                    "me:durability"
                 ]
             },
             "minecraft:hand_equipped": true,
@@ -44,7 +44,7 @@
                     },
                     {
                         "items": [
-                            "mvt:quartz_sword"
+                            "me:quartz_sword"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

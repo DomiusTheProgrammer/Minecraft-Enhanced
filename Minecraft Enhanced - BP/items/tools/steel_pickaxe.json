@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "vx:steel_pickaxe",
+            "identifier": "me:steel_pickaxe",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.pickaxe"
@@ -16,7 +16,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.vx:steel_pickaxe.name"
+                "value": "item.me:steel_pickaxe.name"
             },
             "minecraft:damage": 5.0,
             "minecraft:digger": {
@@ -34,7 +34,7 @@
                 "tags": [
                     "minecraft:pickaxe",
                     "minecraft:is_pickaxe",
-                    "mvt:durability",
+                    "me:durability",
                     "minecraft:diamond_tier",
                     "minecraft:transformable_items"
 
@@ -52,13 +52,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "vx:steel_ingot"
+                            "me:steel_ingot"
                         ],
                         "repair_amount": 312
                     },
                     {
                         "items": [
-                            "vx:steel_pickaxe"
+                            "me:steel_pickaxe"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

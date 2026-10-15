@@ -1,0 +1,20 @@
+﻿{
+  "format_version": "1.26.0",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "me:steel_sword_to_nugget"
+    },
+    "unlock": [
+      {
+        "item": "me:steel_sword"
+      }
+    ],
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "input": "me:steel_sword",
+    "output": "me:steel_nugget"
+  }
+}
+

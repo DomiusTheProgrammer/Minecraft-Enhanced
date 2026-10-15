@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "vx:steel_helmet",
+            "identifier": "me:steel_helmet",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.helmet"
@@ -21,7 +21,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.vx:steel_helmet.name"
+                "value": "item.me:steel_helmet.name"
             },
             "minecraft:wearable": {
                 "slot": "slot.armor.head",
@@ -38,13 +38,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "vx:steel_ingot"
+                            "me:steel_ingot"
                         ],
                         "repair_amount": 112
                     },
                     {
                         "items": [
-                            "vx:steel_ingot"
+                            "me:steel_ingot"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

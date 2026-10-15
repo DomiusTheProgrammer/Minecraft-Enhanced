@@ -156,12 +156,12 @@
         },
         {
           "type": "item",
-          "name": "mvt:emerald_pickaxe",
+          "name": "me:emerald_pickaxe",
           "weight": 4
         },
         {
           "type": "item",
-          "name": "mvt:emerald_sword",
+          "name": "me:emerald_sword",
           "weight": 4
         }
       ]

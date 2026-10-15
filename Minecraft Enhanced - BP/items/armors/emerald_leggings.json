@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "mva:emerald_leggings",
+            "identifier": "me:emerald_leggings",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.leggings"
@@ -21,7 +21,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.mva:emerald_leggings.name"
+                "value": "item.me:emerald_leggings.name"
             },
             "minecraft:wearable": {
                 "slot": "slot.armor.legs",
@@ -44,7 +44,7 @@
                     },
                     {
                         "items": [
-                            "mva:emerald_leggings"
+                            "me:emerald_leggings"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

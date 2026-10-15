@@ -1,0 +1,20 @@
+﻿{
+  "format_version": "1.26.0",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "me:steel_shovel_to_nugget"
+    },
+    "unlock": [
+      {
+        "item": "me:steel_shovel"
+      }
+    ],
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "input": "me:steel_shovel",
+    "output": "me:steel_nugget"
+  }
+}
+

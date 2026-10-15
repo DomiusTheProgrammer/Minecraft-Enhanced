@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.30",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "vx:steel_sword"
+            "identifier": "me:steel_sword"
         },
         "tags": [
             "crafting_table"
@@ -14,19 +14,19 @@
         ],
         "key": {
             "v": {
-                "item": "vx:steel_ingot"
+                "item": "me:steel_ingot"
             },
             "/": {
                 "item": "minecraft:stick"
             }
         },
         "result": {
-            "item": "vx:steel_pickaxe",
+            "item": "me:steel_pickaxe",
             "count": 1
         },
         "unlock": [
             {
-                "item": "vx:steel_ingot"
+                "item": "me:steel_ingot"
             }
         ]
     }

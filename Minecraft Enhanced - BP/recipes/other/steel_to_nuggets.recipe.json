@@ -1,24 +1,24 @@
-{
-    "format_version": "1.20.30",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "vx:steel_to_nuggets"
+            "identifier": "me:steel_to_nuggets"
         },
         "tags": [
             "crafting_table"
         ],
         "ingredients": [
             {
-                "item": "vx:steel_ingot"
+                "item": "me:steel_ingot"
             }
         ],
         "result": {
-            "item": "vx:steel_nugget",
+            "item": "me:steel_nugget",
             "count": 9
         },
         "unlock": [
             {
-                "item": "vx:steel_ingot"
+                "item": "me:steel_ingot"
             }
         ]
     }

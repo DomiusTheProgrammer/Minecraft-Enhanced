@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.30",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "mvt:obsidian_axe"
+            "identifier": "me:obsidian_axe"
         },
         "tags": [
             "crafting_table"
@@ -14,18 +14,18 @@
         ],
         "key": {
             "C": {
-                "item": "mvt:obsidian_shard"
+                "item": "me:obsidian_shard"
             },
             "S": {
                 "item": "minecraft:stick"
             }
         },
         "result": {
-            "item": "mvt:obsidian_axe"
+            "item": "me:obsidian_axe"
         },
         "unlock": [
             {
-                "item": "mvt:obsidian_shard"
+                "item": "me:obsidian_shard"
             }
         ]
     }

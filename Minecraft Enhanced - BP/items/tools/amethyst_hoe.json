@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "mvt:amethyst_hoe",
+            "identifier": "me:amethyst_hoe",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.hoe"
@@ -16,7 +16,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.mvt:amethyst_hoe.name"
+                "value": "item.me:amethyst_hoe.name"
             },
             "minecraft:damage": 1.5,
             "minecraft:digger": {
@@ -34,7 +34,7 @@
                 "tags": [
                     "minecraft:hoe",
                     "minecraft:is_hoe",
-                    "mvt:durability"
+                    "me:durability"
                 ]
             },
             "minecraft:hand_equipped": true,
@@ -55,7 +55,7 @@
                     },
                     {
                         "items": [
-                            "mvt:amethyst_hoe"
+                            "me:amethyst_hoe"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

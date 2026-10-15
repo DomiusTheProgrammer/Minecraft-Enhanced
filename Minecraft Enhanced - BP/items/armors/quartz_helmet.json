@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "mva:quartz_helmet",
+            "identifier": "me:quartz_helmet",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.helmet"
@@ -21,7 +21,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.mva:quartz_helmet.name"
+                "value": "item.me:quartz_helmet.name"
             },
             "minecraft:wearable": {
                 "slot": "slot.armor.head",
@@ -44,7 +44,7 @@
                     },
                     {
                         "items": [
-                            "mva:quartz_helmet"
+                            "me:quartz_helmet"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

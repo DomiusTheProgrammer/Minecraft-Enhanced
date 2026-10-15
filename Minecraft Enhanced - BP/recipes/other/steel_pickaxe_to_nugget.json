@@ -1,0 +1,20 @@
+﻿{
+  "format_version": "1.26.0",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "me:steel_pickaxe_to_nugget"
+    },
+    "unlock": [
+      {
+        "item": "me:steel_pickaxe"
+      }
+    ],
+    "tags": [
+      "furnace",
+      "blast_furnace"
+    ],
+    "input": "me:steel_pickaxe",
+    "output": "me:steel_nugget"
+  }
+}
+

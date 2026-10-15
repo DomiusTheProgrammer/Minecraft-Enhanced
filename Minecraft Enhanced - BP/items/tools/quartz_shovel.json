@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "mvt:quartz_shovel",
+            "identifier": "me:quartz_shovel",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.shovel"
@@ -16,7 +16,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.mvt:quartz_shovel.name"
+                "value": "item.me:quartz_shovel.name"
             },
             "minecraft:damage": 1.5,
             "minecraft:digger": {
@@ -34,7 +34,7 @@
                 "tags": [
                     "minecraft:shovel",
                     "minecraft:is_shovel",
-                    "mvt:durability"
+                    "me:durability"
                 ]
             },
             "minecraft:hand_equipped": true,
@@ -55,7 +55,7 @@
                     },
                     {
                         "items": [
-                            "mvt:quartz_shovel"
+                            "me:quartz_shovel"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

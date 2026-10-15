@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "mvt:obsidian_sword",
+            "identifier": "me:obsidian_sword",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.sword"
@@ -16,14 +16,14 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.mvt:obsidian_sword.name"
+                "value": "item.me:obsidian_sword.name"
             },
             "minecraft:damage": 8.5,
             "minecraft:tags": {
                 "tags": [
                     "minecraft:sword",
                     "minecraft:is_sword",
-                    "mvt:durability"
+                    "me:durability"
                 ]
             },
             "minecraft:hand_equipped": true,
@@ -38,13 +38,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "mvt:obsidian_shard"
+                            "me:obsidian_shard"
                         ],
                         "repair_amount": 175
                     },
                     {
                         "items": [
-                            "mvt:obsidian_sword"
+                            "me:obsidian_sword"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

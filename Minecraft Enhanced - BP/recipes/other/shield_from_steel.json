@@ -1,8 +1,8 @@
-{
-  "format_version": "1.20.10",
+﻿{
+  "format_version": "1.26.0",
   "minecraft:recipe_shaped": {
     "description": {
-      "identifier": "vx:steel_shield"
+      "identifier": "me:steel_shield"
     },
     "tags": [ "crafting_table" ],
     "pattern": [
@@ -15,12 +15,12 @@
         "tag": "minecraft:planks"
       },
       "I": {
-        "item": "vx:steel_ingot"
+        "item": "me:steel_ingot"
       }
     },
 	"unlock": [
       {
-        "item": "vx:steel_ingot"
+        "item": "me:steel_ingot"
       }
     ],
     "result": {

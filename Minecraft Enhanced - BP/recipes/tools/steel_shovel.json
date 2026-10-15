@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.30",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "vx:steel_shovel"
+            "identifier": "me:steel_shovel"
         },
         "tags": [
             "crafting_table"
@@ -14,19 +14,19 @@
         ],
         "key": {
             "v": {
-                "item": "vx:steel_ingot"
+                "item": "me:steel_ingot"
             },
             "/": {
                 "item": "minecraft:stick"
             }
         },
         "result": {
-            "item": "vx:steel_shovel",
+            "item": "me:steel_shovel",
             "count": 1
         },
         "unlock": [
             {
-                "item": "vx:steel_ingot"
+                "item": "me:steel_ingot"
             }
         ]
     }

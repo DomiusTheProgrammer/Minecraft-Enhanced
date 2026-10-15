@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.30",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "vx:steel_boots"
+            "identifier": "me:steel_boots"
         },
         "tags": [
             "crafting_table"
@@ -13,16 +13,16 @@
         ],
         "key": {
             "v": {
-                "item": "vx:steel_ingot"
+                "item": "me:steel_ingot"
             }
         },
         "result": {
-            "item": "vx:steel_boots",
+            "item": "me:steel_boots",
             "count": 1
         },
         "unlock": [
             {
-                "item": "vx:steel_ingot"
+                "item": "me:steel_ingot"
             }
         ]
     }

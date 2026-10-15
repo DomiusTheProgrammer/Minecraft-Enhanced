@@ -1,8 +1,8 @@
-{
-  "format_version": "1.20.70",
+﻿{
+  "format_version": "1.26.0",
   "minecraft:item": {
     "description": {
-      "identifier": "vx:steel_ingot",
+      "identifier": "me:steel_ingot",
       "menu_category": {
         "category": "items"
       }
@@ -15,7 +15,7 @@
         }
       },
       "minecraft:display_name": {
-        "value": "item.vx:steel_ingot.name"
+        "value": "item.me:steel_ingot.name"
       }
     }
   }

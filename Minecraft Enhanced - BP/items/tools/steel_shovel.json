@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "vx:steel_shovel",
+            "identifier": "me:steel_shovel",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.shovel"
@@ -16,7 +16,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.vx:steel_shovel.name"
+                "value": "item.me:steel_shovel.name"
             },
             "minecraft:damage": 4.0,
             "minecraft:digger": {
@@ -34,7 +34,7 @@
                 "tags": [
                     "minecraft:shovel",
                     "minecraft:is_shovel",
-                    "mvt:durability",
+                    "me:durability",
                     "minecraft:diamond_tier",
                     "minecraft:transformable_items"
 
@@ -52,13 +52,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "vx:steel_ingot"
+                            "me:steel_ingot"
                         ],
                         "repair_amount": 200
                     },
                     {
                         "items": [
-                            "vx:steel_shovel"
+                            "me:steel_shovel"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

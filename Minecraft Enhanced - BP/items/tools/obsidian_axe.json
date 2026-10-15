@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "mvt:obsidian_axe",
+            "identifier": "me:obsidian_axe",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.axe"
@@ -16,7 +16,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.mvt:obsidian_axe.name"
+                "value": "item.me:obsidian_axe.name"
             },
             "minecraft:damage": 7.0,
             "minecraft:digger": {
@@ -34,7 +34,7 @@
                 "tags": [
                     "minecraft:axe",
                     "minecraft:is_axe",
-                    "mvt:durability"
+                    "me:durability"
                 ]
             },
             "minecraft:hand_equipped": true,
@@ -49,8 +49,8 @@
                 "repair_items": [
                     {
                         "items": [
-                            "mvt:obsidian_axe",
-                            "mvt:obsidian_shard"
+                            "me:obsidian_axe",
+                            "me:obsidian_shard"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

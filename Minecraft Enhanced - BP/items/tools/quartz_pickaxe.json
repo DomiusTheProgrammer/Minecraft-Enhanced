@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "mvt:quartz_pickaxe",
+            "identifier": "me:quartz_pickaxe",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.pickaxe"
@@ -16,7 +16,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.mvt:quartz_pickaxe.name"
+                "value": "item.me:quartz_pickaxe.name"
             },
             "minecraft:damage": 3.0,
             "minecraft:digger": {
@@ -34,7 +34,7 @@
                 "tags": [
                     "minecraft:pickaxe",
                     "minecraft:is_pickaxe",
-                    "mvt:durability"
+                    "me:durability"
                 ]
             },
             "minecraft:hand_equipped": true,
@@ -55,7 +55,7 @@
                     },
                     {
                         "items": [
-                            "mvt:quartz_pickaxe"
+                            "me:quartz_pickaxe"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

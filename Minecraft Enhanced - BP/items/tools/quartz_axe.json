@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "mvt:quartz_axe",
+            "identifier": "me:quartz_axe",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.axe"
@@ -16,7 +16,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.mvt:quartz_axe.name"
+                "value": "item.me:quartz_axe.name"
             },
             "minecraft:damage": 4.0,
             "minecraft:digger": {
@@ -34,7 +34,7 @@
                 "tags": [
                     "minecraft:axe",
                     "minecraft:is_axe",
-                    "mvt:durability"
+                    "me:durability"
                 ]
             },
             "minecraft:hand_equipped": true,
@@ -55,7 +55,7 @@
                     },
                     {
                         "items": [
-                            "mvt:quartz_axe"
+                            "me:quartz_axe"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

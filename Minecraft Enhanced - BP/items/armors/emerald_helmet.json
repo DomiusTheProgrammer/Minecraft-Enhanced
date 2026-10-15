@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "mva:emerald_helmet",
+            "identifier": "me:emerald_helmet",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.helmet"
@@ -21,7 +21,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.mva:emerald_helmet.name"
+                "value": "item.me:emerald_helmet.name"
             },
             "minecraft:wearable": {
                 "slot": "slot.armor.head",
@@ -44,7 +44,7 @@
                     },
                     {
                         "items": [
-                            "mva:emerald_helmet"
+                            "me:emerald_helmet"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

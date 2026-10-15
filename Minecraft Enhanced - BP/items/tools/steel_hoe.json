@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "vx:steel_hoe",
+            "identifier": "me:steel_hoe",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.hoe"
@@ -16,7 +16,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.vx:steel_hoe.name"
+                "value": "item.me:steel_hoe.name"
             },
             "minecraft:damage": 2.0,
             "minecraft:digger": {
@@ -34,7 +34,7 @@
                 "tags": [
                     "minecraft:hoe",
                     "minecraft:is_hoe",
-                    "mvt:durability",
+                    "me:durability",
                     "minecraft:diamond_tier",
                     "minecraft:transformable_items"
 
@@ -52,13 +52,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "vx:steel_ingot"
+                            "me:steel_ingot"
                         ],
                         "repair_amount": 250
                     },
                     {
                         "items": [
-                            "vx:steel_hoe"
+                            "me:steel_hoe"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

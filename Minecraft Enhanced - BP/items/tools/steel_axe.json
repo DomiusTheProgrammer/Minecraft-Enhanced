@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "vx:steel_axe",
+            "identifier": "me:steel_axe",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.axe"
@@ -16,7 +16,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.vx:steel_axe.name"
+                "value": "item.me:steel_axe.name"
             },
             "minecraft:damage": 6.5,
             "minecraft:digger": {
@@ -34,7 +34,7 @@
                 "tags": [
                     "minecraft:axe",
                     "minecraft:is_axe",
-                    "mvt:durability",
+                    "me:durability",
                     "minecraft:iron_tier",
                     "minecraft:transformable_items"
                 ]
@@ -51,13 +51,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "vx:steel_ingot"
+                            "me:steel_ingot"
                         ],
                         "repair_amount": 300 
                     },
                     {
                         "items": [
-                            "vx:steel_axe"
+                            "me:steel_axe"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

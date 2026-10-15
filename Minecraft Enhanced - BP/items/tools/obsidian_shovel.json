@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "mvt:obsidian_shovel",
+            "identifier": "me:obsidian_shovel",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.shovel"
@@ -16,7 +16,7 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.mvt:obsidian_shovel.name"
+                "value": "item.me:obsidian_shovel.name"
             },
             "minecraft:damage": 4.0,
             "minecraft:digger": {
@@ -34,7 +34,7 @@
                 "tags": [
                     "minecraft:shovel",
                     "minecraft:is_shovel",
-                    "mvt:durability"
+                    "me:durability"
                 ]
             },
             "minecraft:hand_equipped": true,
@@ -49,8 +49,8 @@
                 "repair_items": [
                     {
                         "items": [
-                            "mvt:obsidian_shard",
-                            "mvt:obsidian_shovel"
+                            "me:obsidian_shard",
+                            "me:obsidian_shovel"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

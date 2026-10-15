@@ -1,15 +1,15 @@
-{
-    "format_version": "1.20.30",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:recipe_shapeless": {
         "description": {
-            "identifier": "vx:flint_and_steel"
+            "identifier": "me:flint_and_steel"
         },
         "tags": [
             "crafting_table"
         ],
         "ingredients": [
             {
-                "item": "vx:steel_ingot"
+                "item": "me:steel_ingot"
             },
             {
                 "item": "minecraft:flint"
@@ -21,7 +21,7 @@
         },
         "unlock": [
             {
-                "item": "vx:steel_ingot"
+                "item": "me:steel_ingot"
             }
         ]
     }

@@ -23,7 +23,7 @@
             { "function": "enchant_randomly", "treasure": true }
           ]
         },
-        { "type": "item", "name": "vx:soul_orb", "weight": 15 }
+        { "type": "item", "name": "me:soul_orb", "weight": 15 }
       ]
     },
     {

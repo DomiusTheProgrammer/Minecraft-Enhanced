@@ -1,8 +1,8 @@
-{
-    "format_version": "1.20.70",
+﻿{
+    "format_version": "1.26.0",
     "minecraft:item": {
         "description": {
-            "identifier": "vx:steel_sword",
+            "identifier": "me:steel_sword",
             "menu_category": {
                 "category": "equipment",
                 "group": "itemGroup.name.sword"
@@ -16,14 +16,14 @@
                 }
             },
             "minecraft:display_name": {
-                "value": "item.vx:steel_sword.name"
+                "value": "item.me:steel_sword.name"
             },
             "minecraft:damage": 7.0,
             "minecraft:tags": {
                 "tags": [
                     "minecraft:sword",
                     "minecraft:is_sword",
-                    "mvt:durability",
+                    "me:durability",
                     "minecraft:diamond_tier",
                     "minecraft:transformable_items"
 
@@ -41,13 +41,13 @@
                 "repair_items": [
                     {
                         "items": [
-                            "vx:steel_ingot"
+                            "me:steel_ingot"
                         ],
                         "repair_amount": 250
                     },
                     {
                         "items": [
-                            "vx:steel_sword"
+                            "me:steel_sword"
                         ],
                         "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
                     }

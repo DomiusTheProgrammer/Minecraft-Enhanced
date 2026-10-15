@@ -36,7 +36,7 @@
         },
         {
           "type": "item",
-          "name": "vx:totem_fragment",
+          "name": "me:totem_fragment",
           "weight": 3
         }
       ]
