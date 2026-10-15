@@ -101,6 +101,140 @@
           "type": "item",
           "weight": 5,
           "name": "minecraft:iron_shovel"
+        },
+        {
+          "type": "item",
+          "name": "me:steel_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "me:steel_pickaxe"
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "me:steel_axe"
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "me:steel_shovel"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "me:steel_helmet"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "me:steel_boots"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:steel_hoe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:amethyst_axe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:amethyst_hoe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:amethyst_pickaxe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:amethyst_shovel"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:amethyst_sword"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:emerald_axe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:emerald_hoe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:emerald_shovel"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:quartz_axe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:quartz_hoe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:quartz_pickaxe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:quartz_shovel"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:quartz_sword"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:obsidian_axe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:obsidian_hoe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:obsidian_pickaxe"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:obsidian_shovel"
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "me:obsidian_sword"
         }
       ]
     }

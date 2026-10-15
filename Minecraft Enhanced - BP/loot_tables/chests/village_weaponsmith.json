@@ -159,6 +159,55 @@
         {
           "type": "item",
           "name": "minecraft:horsearmordiamond"
+        },
+        {
+          "type": "item",
+          "name": "me:steel_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ],
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "me:steel_sword"
+        },
+        {
+          "type": "item",
+          "weight": 5,
+          "name": "me:steel_pickaxe"
+        },
+        {
+          "type": "item",
+          "weight": 4,
+          "name": "me:steel_axe"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "me:steel_helmet"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "me:steel_chestplate"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "me:steel_leggings"
+        },
+        {
+          "type": "item",
+          "weight": 3,
+          "name": "me:steel_boots"
         }
       ]
     }
