@@ -1,5 +1,5 @@
-﻿{
-    "format_version": "1.26.0",
+{
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "me:emerald_boots",
@@ -16,12 +16,7 @@
             },
             "minecraft:max_stack_size": 1,
             "minecraft:icon": {
-                "textures": {
-                    "default": "emerald_boots"
-                }
-            },
-            "minecraft:display_name": {
-                "value": "item.me:emerald_boots.name"
+                "texture": "me:emerald_boots"
             },
             "minecraft:wearable": {
                 "slot": "slot.armor.feet",

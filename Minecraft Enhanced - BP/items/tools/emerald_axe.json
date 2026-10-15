@@ -1,5 +1,5 @@
-﻿{
-    "format_version": "1.26.0",
+{
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "me:emerald_axe",
@@ -11,19 +11,14 @@
         "components": {
             "minecraft:max_stack_size": 1,
             "minecraft:icon": {
-                "textures": {
-                    "default": "emerald_axe"
-                }
+                "texture": "me:emerald_axe"
             },
-            "minecraft:display_name": {
-                "value": "item.me:emerald_axe.name"
-            },
-            "minecraft:damage": 6.5,
+            "minecraft:damage": 6,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 6.5,
+                        "speed": 6.0,
                         "block": {
                             "tags": "q.any_tag('minecraft:is_tool_item_destructible','minecraft:is_axe_item_destructible')"
                         }
@@ -31,11 +26,7 @@
                 ]
             },
             "minecraft:tags": {
-                "tags": [
-                    "minecraft:axe",
-                    "minecraft:is_axe",
-                    "me:durability"
-                ]
+                "tags": []
             },
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
@@ -43,7 +34,11 @@
                 "value": 16
             },
             "minecraft:durability": {
-                "max_durability": 1100
+                "max_durability": 350,
+                "damage_chance": {
+                    "min": 0,
+                    "max": 0
+                }
             },
             "minecraft:repairable": {
                 "repair_items": [

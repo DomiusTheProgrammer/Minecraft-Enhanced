@@ -1,5 +1,5 @@
-﻿{
-    "format_version": "1.26.0",
+{
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "me:obsidian_hoe",
@@ -11,19 +11,14 @@
         "components": {
             "minecraft:max_stack_size": 1,
             "minecraft:icon": {
-                "textures": {
-                    "default": "obsidian_hoe"
-                }
+                "texture": "me:obsidian_hoe"
             },
-            "minecraft:display_name": {
-                "value": "item.me:obsidian_hoe.name"
-            },
-            "minecraft:damage": 2.0,
+            "minecraft:damage": 8,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 7.0,
+                        "speed": 12.0,
                         "block": {
                             "tags": "query.any_tag('plant', 'crop', 'leaves', 'minecraft:is_hoe_item_destructible')"
                         }
@@ -31,11 +26,7 @@
                 ]
             },
             "minecraft:tags": {
-                "tags": [
-                    "minecraft:hoe",
-                    "minecraft:is_hoe",
-                    "me:durability"
-                ]
+                "tags": []
             },
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
@@ -43,7 +34,11 @@
                 "value": 8
             },
             "minecraft:durability": {
-                "max_durability": 1800
+                "max_durability": 375,
+                "damage_chance": {
+                    "min": 0,
+                    "max": 0
+                }
             },
             "minecraft:repairable": {
                 "repair_items": [

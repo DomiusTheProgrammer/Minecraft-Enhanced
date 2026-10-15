@@ -1,5 +1,5 @@
-﻿{
-    "format_version": "1.26.0",
+{
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "me:amethyst_helmet",
@@ -16,12 +16,7 @@
             },
             "minecraft:max_stack_size": 1,
             "minecraft:icon": {
-                "textures": {
-                    "default": "amethyst_helmet"
-                }
-            },
-            "minecraft:display_name": {
-                "value": "item.me:amethyst_helmet.name"
+                "texture": "me:amethyst_helmet"
             },
             "minecraft:wearable": {
                 "slot": "slot.armor.head",

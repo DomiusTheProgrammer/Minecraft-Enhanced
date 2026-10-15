@@ -2,136 +2,136 @@
   "resource_pack_name": "Minecraft Enhanced - RP",
   "texture_name": "atlas.items",
   "texture_data": {
-    "amethyst_axe": {
+    "me:amethyst_axe": {
       "textures": "textures/items/amethyst_axe"
     },
-    "amethyst_boots": {
+    "me:amethyst_boots": {
       "textures": "textures/items/amethyst_boots"
     },
-    "amethyst_chestplate": {
+    "me:amethyst_chestplate": {
       "textures": "textures/items/amethyst_chestplate"
     },
-    "amethyst_helmet": {
+    "me:amethyst_helmet": {
       "textures": "textures/items/amethyst_helmet"
     },
-    "amethyst_hoe": {
+    "me:amethyst_hoe": {
       "textures": "textures/items/amethyst_hoe"
     },
-    "amethyst_leggings": {
+    "me:amethyst_leggings": {
       "textures": "textures/items/amethyst_leggings"
     },
-    "amethyst_pickaxe": {
+    "me:amethyst_pickaxe": {
       "textures": "textures/items/amethyst_pickaxe"
     },
-    "amethyst_shovel": {
+    "me:amethyst_shovel": {
       "textures": "textures/items/amethyst_shovel"
     },
-    "amethyst_sword": {
+    "me:amethyst_sword": {
       "textures": "textures/items/amethyst_sword"
     },
-    "emerald_axe": {
+    "me:emerald_axe": {
       "textures": "textures/items/emerald_axe"
     },
-    "emerald_boots": {
+    "me:emerald_boots": {
       "textures": "textures/items/emerald_boots"
     },
-    "emerald_chestplate": {
+    "me:emerald_chestplate": {
       "textures": "textures/items/emerald_chestplate"
     },
-    "emerald_helmet": {
+    "me:emerald_helmet": {
       "textures": "textures/items/emerald_helmet"
     },
-    "emerald_hoe": {
+    "me:emerald_hoe": {
       "textures": "textures/items/emerald_hoe"
     },
-    "emerald_leggings": {
+    "me:emerald_leggings": {
       "textures": "textures/items/emerald_leggings"
     },
-    "emerald_pickaxe": {
+    "me:emerald_pickaxe": {
       "textures": "textures/items/emerald_pickaxe"
     },
-    "emerald_shovel": {
+    "me:emerald_shovel": {
       "textures": "textures/items/emerald_shovel"
     },
-    "emerald_sword": {
+    "me:emerald_sword": {
       "textures": "textures/items/emerald_sword"
     },
-    "obsidian_axe": {
+    "me:obsidian_axe": {
       "textures": "textures/items/obsidian_axe"
     },
-    "obsidian_hoe": {
+    "me:obsidian_hoe": {
       "textures": "textures/items/obsidian_hoe"
     },
-    "obsidian_pickaxe": {
+    "me:obsidian_pickaxe": {
       "textures": "textures/items/obsidian_pickaxe"
     },
-    "obsidian_shard": {
+    "me:obsidian_shard": {
       "textures": "textures/items/obsidian_shard"
     },
-    "obsidian_shovel": {
+    "me:obsidian_shovel": {
       "textures": "textures/items/obsidian_shovel"
     },
-    "obsidian_sword": {
+    "me:obsidian_sword": {
       "textures": "textures/items/obsidian_sword"
     },
-    "quartz_axe": {
+    "me:quartz_axe": {
       "textures": "textures/items/quartz_axe"
     },
-    "quartz_boots": {
+    "me:quartz_boots": {
       "textures": "textures/items/quartz_boots"
     },
-    "quartz_chestplate": {
+    "me:quartz_chestplate": {
       "textures": "textures/items/quartz_chestplate"
     },
-    "quartz_helmet": {
+    "me:quartz_helmet": {
       "textures": "textures/items/quartz_helmet"
     },
-    "quartz_hoe": {
+    "me:quartz_hoe": {
       "textures": "textures/items/quartz_hoe"
     },
-    "quartz_leggings": {
+    "me:quartz_leggings": {
       "textures": "textures/items/quartz_leggings"
     },
-    "quartz_pickaxe": {
+    "me:quartz_pickaxe": {
       "textures": "textures/items/quartz_pickaxe"
     },
-    "quartz_shovel": {
+    "me:quartz_shovel": {
       "textures": "textures/items/quartz_shovel"
     },
-    "quartz_sword": {
+    "me:quartz_sword": {
       "textures": "textures/items/quartz_sword"
     },
-    "steel_axe": {
+    "me:steel_axe": {
       "textures": "textures/items/steel_axe"
     },
-    "steel_boots": {
+    "me:steel_boots": {
       "textures": "textures/items/steel_boots"
     },
-    "steel_chestplate": {
+    "me:steel_chestplate": {
       "textures": "textures/items/steel_chestplate"
     },
-    "steel_helmet": {
+    "me:steel_helmet": {
       "textures": "textures/items/steel_helmet"
     },
-    "steel_hoe": {
+    "me:steel_hoe": {
       "textures": "textures/items/steel_hoe"
     },
-    "steel_ingot": {
+    "me:steel_ingot": {
       "textures": "textures/items/steel_ingot"
     },
-    "steel_leggings": {
+    "me:steel_leggings": {
       "textures": "textures/items/steel_leggings"
     },
-    "steel_nugget": {
+    "me:steel_nugget": {
       "textures": "textures/items/steel_nugget"
     },
-    "steel_pickaxe": {
+    "me:steel_pickaxe": {
       "textures": "textures/items/steel_pickaxe"
     },
-    "steel_shovel": {
+    "me:steel_shovel": {
       "textures": "textures/items/steel_shovel"
     },
-    "steel_sword": {
+    "me:steel_sword": {
       "textures": "textures/items/steel_sword"
     }
   }

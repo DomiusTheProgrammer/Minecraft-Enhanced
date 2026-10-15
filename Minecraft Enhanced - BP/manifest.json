@@ -7,13 +7,14 @@
     "version": [
       1,
       0,
-      1
+      28
     ],
     "min_engine_version": [
       1,
       26,
-      0
-    ]
+      30
+    ],
+    "product_type": "addon"
   },
   "modules": [
     {
@@ -22,8 +23,19 @@
       "version": [
         1,
         0,
-        1
+        28
       ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "3fc4fefa-4d18-4c22-9b60-a0f5e479c917",
+      "version": [
+        1,
+        0,
+        28
+      ],
+      "entry": "scripts/main.js"
     }
   ],
   "dependencies": [
@@ -32,8 +44,19 @@
       "version": [
         1,
         0,
-        1
+        28
       ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
     }
-  ]
+  ],
+  "metadata": {
+    "authors": [
+      "DomiusTheProgrammer"
+    ],
+    "license": "MIT",
+    "product_type": "addon"
+  }
 }

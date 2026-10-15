@@ -1,5 +1,5 @@
-﻿{
-    "format_version": "1.26.0",
+{
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "me:amethyst_axe",
@@ -11,31 +11,28 @@
         "components": {
             "minecraft:max_stack_size": 1,
             "minecraft:icon": {
-                "textures": {
-                    "default": "amethyst_axe"
-                }
+                "texture": "me:amethyst_axe"
             },
-            "minecraft:display_name": {
-                "value": "item.me:amethyst_axe.name"
-            },
-            "minecraft:damage": 5.5,
+            "minecraft:damage": 6,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 7.0,
                         "block": {
                             "tags": "q.any_tag('minecraft:is_tool_item_destructible','minecraft:is_axe_item_destructible')"
-                        }
+                        },
+                        "speed": 6.0
+                    },
+                    {
+                        "block": {
+                            "tags": "q.any_tag('stone', 'dirt', 'wood', 'plant')"
+                        },
+                        "speed": 6.0
                     }
                 ]
             },
             "minecraft:tags": {
-                "tags": [
-                    "minecraft:axe",
-                    "minecraft:is_axe",
-                    "me:durability"
-                ]
+                "tags": []
             },
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
@@ -43,7 +40,11 @@
                 "value": 16
             },
             "minecraft:durability": {
-                "max_durability": 1000
+                "max_durability": 450,
+                "damage_chance": {
+                    "min": 0,
+                    "max": 0
+                }
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -51,7 +52,7 @@
                         "items": [
                             "minecraft:amethyst_shard"
                         ],
-                        "repair_amount": 300 
+                        "repair_amount": 300
                     },
                     {
                         "items": [

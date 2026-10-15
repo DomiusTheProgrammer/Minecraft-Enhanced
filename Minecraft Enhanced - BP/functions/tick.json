@@ -1,6 +1,5 @@
 {
-    "values": [
-      ".effects",
-      ".other"
-    ]
-  }
+  "values": [
+    ".welcomeMessage"
+  ]
+}

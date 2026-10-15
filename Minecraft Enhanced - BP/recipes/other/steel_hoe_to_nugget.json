@@ -1,20 +1,19 @@
-﻿{
-  "format_version": "1.26.0",
-  "minecraft:recipe_furnace": {
-    "description": {
-      "identifier": "me:steel_hoe_to_nugget"
-    },
-    "unlock": [
-      {
-        "item": "me:steel_hoe"
-      }
-    ],
-    "tags": [
-      "furnace",
-      "blast_furnace"
-    ],
-    "input": "me:steel_hoe",
-    "output": "me:steel_nugget"
-  }
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "me:steel_hoe_to_nugget"
+        },
+        "unlock": [
+            {
+                "item": "me:steel_hoe"
+            }
+        ],
+        "tags": [
+            "furnace",
+            "blast_furnace"
+        ],
+        "input": "me:steel_hoe",
+        "output": "me:steel_nugget"
+    }
 }
-

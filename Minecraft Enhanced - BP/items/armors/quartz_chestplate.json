@@ -1,5 +1,5 @@
-﻿{
-    "format_version": "1.26.0",
+{
+    "format_version": "1.20.30",
     "minecraft:item": {
         "description": {
             "identifier": "me:quartz_chestplate",
@@ -16,12 +16,7 @@
             },
             "minecraft:max_stack_size": 1,
             "minecraft:icon": {
-                "textures": {
-                    "default": "quartz_chestplate"
-                }
-            },
-            "minecraft:display_name": {
-                "value": "item.me:quartz_chestplate.name"
+                "texture": "me:quartz_chestplate"
             },
             "minecraft:wearable": {
                 "slot": "slot.armor.chest",

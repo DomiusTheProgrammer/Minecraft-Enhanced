@@ -1,5 +1,5 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.19.80",
   "minecraft:attachable": {
     "description": {
       "identifier": "me:emerald_helmet",
@@ -15,7 +15,7 @@
         "default": "textures/models/emerald_layer_1"
       },
       "scripts": {
-        "parent_setup": "v.chest_layer_visible = 0.0;"
+        "parent_setup": "variable.chest_layer_visible = 0.0;"
       },
       "geometry": {
         "default": "geometry.player.armor.helmet"

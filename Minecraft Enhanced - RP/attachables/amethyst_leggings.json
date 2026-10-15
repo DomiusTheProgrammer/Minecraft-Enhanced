@@ -1,5 +1,5 @@
 {
-  "format_version": "1.26.0",
+  "format_version": "1.19.80",
   "minecraft:attachable": {
     "description": {
       "identifier": "me:amethyst_leggings",
@@ -15,7 +15,7 @@
         "default": "textures/models/amethyst_layer_2"
       },
       "scripts": {
-        "parent_setup": "v.leg_layer_visible = 0.0;"
+        "parent_setup": "variable.leg_layer_visible = 0.0;"
       },
       "geometry": {
         "default": "geometry.player.armor.leggings"
