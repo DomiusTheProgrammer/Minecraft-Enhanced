@@ -149,31 +149,6 @@
         {
           "type": "item",
           "weight": 2,
-          "name": "me:amethyst_axe"
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "me:amethyst_hoe"
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "me:amethyst_pickaxe"
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "me:amethyst_shovel"
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "me:amethyst_sword"
-        },
-        {
-          "type": "item",
-          "weight": 2,
           "name": "me:emerald_axe"
         },
         {
