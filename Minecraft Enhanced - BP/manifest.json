@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Minecraft Enhanced - BP v1.0",
+    "description": "A lightly expanded, vanilla-balanced behavior pack that keeps gameplay familiar while adding small, polished improvements without breaking progression or achievements.",
+    "uuid": "079de9ca-2a4b-4e85-8b64-fb9ad6d08644",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "ce7d6fc4-6778-4a45-8066-b06bf098467c",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b06d57ba-d5cf-4bbd-88dc-29ffdb40eb25",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
