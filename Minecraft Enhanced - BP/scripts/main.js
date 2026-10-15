@@ -1,4 +1,4 @@
-import { world } from "@minecraft/server";
+import { system, world } from "@minecraft/server";
 
 const toolTypes = new Set(["axe", "hoe", "pickaxe", "shovel"]);
 const effectiveBlockTags = new Map([
@@ -32,44 +32,122 @@ const effectiveBlockTags = new Map([
   ],
 ]);
 
-function damageMainhand(entity, amount, expectedTypeId) {
+const lastDurability = new Map();
+const pendingDurability = new Map();
+
+function getMainhand(entity) {
   const equippable = entity.getComponent("minecraft:equippable");
   const mainhand = equippable?.getEquipmentSlot("Mainhand");
   const item = mainhand?.getItem();
-  if (!item || item.typeId !== expectedTypeId) {
+  return mainhand && item ? { mainhand, item } : undefined;
+}
+
+function captureMainhandDurability() {
+  for (const player of world.getAllPlayers()) {
+    const held = getMainhand(player);
+    const durability = held?.item.getComponent("minecraft:durability");
+    if (!held || !durability || !held.item.typeId.startsWith("me:")) {
+      continue;
+    }
+
+    const key = `${player.id}:${held.item.typeId}`;
+    if (!pendingDurability.has(key)) {
+      lastDurability.set(key, {
+        damage: durability.damage,
+      });
+    }
+  }
+}
+
+function applyScriptedDurability(entity, amount, expectedTypeId) {
+  const held = getMainhand(entity);
+  if (!held || held.item.typeId !== expectedTypeId) {
     return;
   }
 
-  const durability = item.getComponent("minecraft:durability");
-  if (!durability || durability.unbreakable) {
+  const durability = held.item.getComponent("minecraft:durability");
+  if (!durability) {
     return;
   }
 
-  const enchantable = item.getComponent("minecraft:enchantable");
+  const key = `${entity.id}:${expectedTypeId}`;
+  const pending = pendingDurability.get(key);
+  const previous = pending
+    ? pending.damage
+    : lastDurability.get(key)
+      ? lastDurability.get(key).damage
+      : durability.damage;
+  const enchantable = held.item.getComponent("minecraft:enchantable");
   const unbreakingLevel = enchantable?.getEnchantment("unbreaking")?.level ?? 0;
+  let scriptedLoss = 0;
   for (let point = 0; point < amount; point++) {
     if (Math.random() < 1 / (unbreakingLevel + 1)) {
-      durability.damage += 1;
+      scriptedLoss += 1;
     }
   }
 
-  mainhand.setItem(
-    durability.damage >= durability.maxDurability ? undefined : item,
-  );
+  const targetDamage = previous + scriptedLoss;
+  const selectedSlotIndex =
+    entity.typeId === "minecraft:player" ? entity.selectedSlotIndex : undefined;
+  const update = { damage: targetDamage };
+  pendingDurability.set(key, update);
+  system.run(() => {
+    if (pendingDurability.get(key) !== update) {
+      return;
+    }
+
+    const current = getMainhand(entity);
+    const stillSelectedSlot =
+      selectedSlotIndex === undefined || entity.selectedSlotIndex === selectedSlotIndex;
+    let applied = false;
+    if (stillSelectedSlot && current?.item.typeId === expectedTypeId) {
+      const currentDurability = current.item.getComponent("minecraft:durability");
+      if (currentDurability) {
+        currentDurability.damage = targetDamage;
+        current.mainhand.setItem(
+          targetDamage >= currentDurability.maxDurability
+            ? undefined
+            : current.item,
+        );
+        applied = true;
+      }
+    } else if (
+      stillSelectedSlot &&
+      !current &&
+      selectedSlotIndex !== undefined
+    ) {
+      const originalDurability = held.item.getComponent("minecraft:durability");
+      if (originalDurability) {
+        originalDurability.damage = targetDamage;
+        held.mainhand.setItem(
+          targetDamage >= originalDurability.maxDurability
+            ? undefined
+            : held.item,
+        );
+        applied = true;
+      }
+    }
+
+    if (applied) {
+      lastDurability.set(key, update);
+    }
+    pendingDurability.delete(key);
+  });
 }
 
+system.runInterval(captureMainhandDurability, 1);
+
 world.afterEvents.entityHitEntity.subscribe(({ damagingEntity }) => {
-  const equippable = damagingEntity.getComponent("minecraft:equippable");
-  const item = equippable?.getEquipmentSlot("Mainhand").getItem();
+  const item = getMainhand(damagingEntity)?.item;
   if (!item?.typeId.startsWith("me:")) {
     return;
   }
 
   const itemType = item.typeId.slice(3).split("_").pop();
   if (itemType === "sword") {
-    damageMainhand(damagingEntity, 1, item.typeId);
+    applyScriptedDurability(damagingEntity, 1, item.typeId);
   } else if (toolTypes.has(itemType)) {
-    damageMainhand(damagingEntity, 2, item.typeId);
+    applyScriptedDurability(damagingEntity, 2, item.typeId);
   }
 });
 
@@ -82,7 +160,7 @@ world.afterEvents.playerBreakBlock.subscribe(
 
     const itemType = item.typeId.slice(3).split("_").pop();
     if (itemType === "sword") {
-      damageMainhand(player, 2, item.typeId);
+      applyScriptedDurability(player, 2, item.typeId);
       return;
     }
     if (!toolTypes.has(itemType)) {
@@ -93,6 +171,6 @@ world.afterEvents.playerBreakBlock.subscribe(
       effectiveBlockTags
         .get(itemType)
         ?.some((tag) => brokenBlockPermutation.hasTag(tag)) === true;
-    damageMainhand(player, isEffectiveBlock ? 1 : 2, item.typeId);
+    applyScriptedDurability(player, isEffectiveBlock ? 1 : 2, item.typeId);
   },
 );
