@@ -35,6 +35,20 @@ const effectiveBlockTags = new Map([
 const lastDurability = new Map();
 const pendingDurability = new Map();
 
+function getItemType(item) {
+  return item.typeId.slice(3).split("_").pop();
+}
+
+function getDurabilityLoss(amount, unbreakingLevel) {
+  let loss = 0;
+  for (let point = 0; point < amount; point++) {
+    if (Math.random() < 1 / (unbreakingLevel + 1)) {
+      loss++;
+    }
+  }
+  return loss;
+}
+
 function getMainhand(entity) {
   const equippable = entity.getComponent("minecraft:equippable");
   const mainhand = equippable?.getEquipmentSlot("Mainhand");
@@ -52,14 +66,12 @@ function captureMainhandDurability() {
 
     const key = `${player.id}:${held.item.typeId}`;
     if (!pendingDurability.has(key)) {
-      lastDurability.set(key, {
-        damage: durability.damage,
-      });
+      lastDurability.set(key, durability.damage);
     }
   }
 }
 
-function applyScriptedDurability(entity, amount, expectedTypeId) {
+function applyBlockDurability(entity, amount, expectedTypeId) {
   const held = getMainhand(entity);
   if (!held || held.item.typeId !== expectedTypeId) {
     return;
@@ -72,19 +84,10 @@ function applyScriptedDurability(entity, amount, expectedTypeId) {
 
   const key = `${entity.id}:${expectedTypeId}`;
   const pending = pendingDurability.get(key);
-  const previous = pending
-    ? pending.damage
-    : lastDurability.get(key)
-      ? lastDurability.get(key).damage
-      : durability.damage;
+  const previous = pending?.damage ?? lastDurability.get(key) ?? durability.damage;
   const enchantable = held.item.getComponent("minecraft:enchantable");
   const unbreakingLevel = enchantable?.getEnchantment("unbreaking")?.level ?? 0;
-  let scriptedLoss = 0;
-  for (let point = 0; point < amount; point++) {
-    if (Math.random() < 1 / (unbreakingLevel + 1)) {
-      scriptedLoss += 1;
-    }
-  }
+  const scriptedLoss = getDurabilityLoss(amount, unbreakingLevel);
 
   const targetDamage = previous + scriptedLoss;
   const selectedSlotIndex =
@@ -129,27 +132,13 @@ function applyScriptedDurability(entity, amount, expectedTypeId) {
     }
 
     if (applied) {
-      lastDurability.set(key, update);
+      lastDurability.set(key, targetDamage);
     }
     pendingDurability.delete(key);
   });
 }
 
 system.runInterval(captureMainhandDurability, 1);
-
-world.afterEvents.entityHitEntity.subscribe(({ damagingEntity }) => {
-  const item = getMainhand(damagingEntity)?.item;
-  if (!item?.typeId.startsWith("me:")) {
-    return;
-  }
-
-  const itemType = item.typeId.slice(3).split("_").pop();
-  if (itemType === "sword") {
-    applyScriptedDurability(damagingEntity, 1, item.typeId);
-  } else if (toolTypes.has(itemType)) {
-    applyScriptedDurability(damagingEntity, 2, item.typeId);
-  }
-});
 
 world.afterEvents.playerBreakBlock.subscribe(
   ({ player, brokenBlockPermutation, itemStackBeforeBreak }) => {
@@ -158,9 +147,9 @@ world.afterEvents.playerBreakBlock.subscribe(
       return;
     }
 
-    const itemType = item.typeId.slice(3).split("_").pop();
+    const itemType = getItemType(item);
     if (itemType === "sword") {
-      applyScriptedDurability(player, 2, item.typeId);
+      applyBlockDurability(player, 2, item.typeId);
       return;
     }
     if (!toolTypes.has(itemType)) {
@@ -171,6 +160,6 @@ world.afterEvents.playerBreakBlock.subscribe(
       effectiveBlockTags
         .get(itemType)
         ?.some((tag) => brokenBlockPermutation.hasTag(tag)) === true;
-    applyScriptedDurability(player, isEffectiveBlock ? 1 : 2, item.typeId);
+    applyBlockDurability(player, isEffectiveBlock ? 1 : 2, item.typeId);
   },
 );

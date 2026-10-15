@@ -25,7 +25,7 @@
                     },
                     {
                         "block": {
-                            "tags": "q.any_tag('stone', 'dirt', 'wood', 'plant')"
+                            "tags": "q.any_tag('stone', 'wood', 'plant')"
                         },
                         "speed": 6.0
                     }
@@ -40,11 +40,7 @@
                 "value": 16
             },
             "minecraft:durability": {
-                "max_durability": 450,
-                "damage_chance": {
-                    "min": 0,
-                    "max": 0
-                }
+                "max_durability": 450
             },
             "minecraft:repairable": {
                 "repair_items": [
