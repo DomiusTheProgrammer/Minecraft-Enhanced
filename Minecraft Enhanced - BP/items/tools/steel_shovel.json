@@ -1,0 +1,69 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:item": {
+        "description": {
+            "identifier": "vx:steel_shovel",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.shovel"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "steel_shovel"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.vx:steel_shovel.name"
+            },
+            "minecraft:damage": 4.0,
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "speed": 6.0,
+                        "block": {
+                            "tags": "query.any_tag('dirt', 'sand', 'gravel', 'snow', 'minecraft:is_shovel_item_destructible')"
+                        }
+                    }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:shovel",
+                    "minecraft:is_shovel",
+                    "mvt:durability",
+                    "minecraft:diamond_tier",
+                    "minecraft:transformable_items"
+
+                ]
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:enchantable": {
+                "slot": "shovel",
+                "value": 12
+            },
+            "minecraft:durability": {
+                "max_durability": 1300
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "vx:steel_ingot"
+                        ],
+                        "repair_amount": 200
+                    },
+                    {
+                        "items": [
+                            "vx:steel_shovel"
+                        ],
+                        "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+                    }
+                ]
+            }
+        }
+    }
+}

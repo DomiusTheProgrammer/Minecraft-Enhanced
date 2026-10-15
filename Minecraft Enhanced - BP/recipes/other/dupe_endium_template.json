@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "vx:dupe_upgrade_template"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "#V#",
+            "#v#",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:end_stone"
+            },
+            "V": {
+                "item": "vx:endium_upgrade_template"
+            },
+            "v": {
+                "item": "vx:endium_ingot"
+            }
+        },
+        "result": {
+            "item": "vx:endium_upgrade_template",
+            "count": 2
+        },
+        "unlock": [
+            {
+                "item": "minecraft:end_stone"
+            }
+        ]
+    }
+}

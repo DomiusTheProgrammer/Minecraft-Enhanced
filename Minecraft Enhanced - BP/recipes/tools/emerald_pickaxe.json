@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mvt:emerald_pickaxe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "CCC",
+            " S ",
+            " S "
+        ],
+        "key": {
+            "C": {
+                "item": "minecraft:emerald"
+            },
+            "S": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "mvt:emerald_pickaxe"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:emerald"
+            }
+        ]
+    }
+}

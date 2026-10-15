@@ -1,0 +1,55 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mva:emerald_chestplate",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.chestplate"
+            }
+        },
+        "components": {
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:trimmable_armors"
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "emerald_chestplate"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.mva:emerald_chestplate.name"
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.chest",
+                "protection": 7
+            },
+            "minecraft:enchantable": {
+                "slot": "armor_torso",
+                "value": 26
+            },
+            "minecraft:durability": {
+                "max_durability": 450
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:emerald"
+                        ],
+                        "repair_amount": 112
+                    },
+                    {
+                        "items": [
+                            "mva:emerald_chestplate"
+                        ],
+                        "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+                    }
+                ]
+            }
+        }
+    }
+}

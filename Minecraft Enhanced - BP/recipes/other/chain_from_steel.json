@@ -1,0 +1,33 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "vx:chain_steel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "N",
+            "G",
+            "N"
+        ],
+        "key": {
+            "N": {
+                "item": "vx:steel_nugget"
+            },
+            "G": {
+                "item": "vx:steel_ingot"
+            }
+        },
+		"unlock": [
+          {
+            "item": "vx:steel_ingot"
+          }
+        ],
+        "result": {
+            "item": "chain",
+            "count": 1
+        }
+    }
+}

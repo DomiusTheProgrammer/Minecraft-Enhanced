@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mva:amethyst_boots"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "E E",
+            "E E"
+        ],
+        "key": {
+            "E": {
+                "item": "minecraft:amethyst_shard"
+            }
+        },
+        "result": {
+            "item": "mva:amethyst_boots"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:amethyst_shard"
+            }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mva:obsidian_boots_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "X X",
+            "X X"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:obsidian"
+            }
+        },
+        "result": {
+            "item": "mva:obsidian_boots"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:obsidian"
+            }
+        ]
+    }
+}

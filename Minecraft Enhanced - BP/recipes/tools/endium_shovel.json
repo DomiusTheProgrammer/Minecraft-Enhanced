@@ -1,0 +1,33 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "vx:endium_shovel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "v",
+            "/",
+            "/"
+        ],
+        "key": {
+            "v": {
+                "item": "vx:endium_ingot"
+            },
+            "/": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "vx:endium_shovel",
+            "count": 1
+        },
+        "unlock": [
+            {
+                "item": "vx:endium_ingot"
+            }
+        ]
+    }
+}

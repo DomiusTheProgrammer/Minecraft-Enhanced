@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mvt:quartz_axe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "CC",
+            "CS",
+            " S"
+        ],
+        "key": {
+            "C": {
+                "item": "minecraft:quartz"
+            },
+            "S": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "mvt:quartz_axe"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:quartz"
+            }
+        ]
+    }
+}

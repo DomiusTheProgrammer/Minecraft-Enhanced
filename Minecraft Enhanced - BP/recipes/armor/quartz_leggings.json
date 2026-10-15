@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mva:quartz_leggings"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "EEE",
+            "E E",
+            "E E"
+        ],
+        "key": {
+            "E": {
+                "item": "minecraft:quartz"
+            }
+        },
+        "result": {
+            "item": "mva:quartz_leggings"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:quartz"
+            }
+        ]
+    }
+}

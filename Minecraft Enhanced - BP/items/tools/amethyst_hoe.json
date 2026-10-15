@@ -1,0 +1,66 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mvt:amethyst_hoe",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.hoe"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "textures": {
+                    "default": "amethyst_hoe"
+                }
+            },
+            "minecraft:display_name": {
+                "value": "item.mvt:amethyst_hoe.name"
+            },
+            "minecraft:damage": 1.5,
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "speed": 6.5,
+                        "block": {
+                            "tags": "query.any_tag('plant', 'crop', 'leaves', 'minecraft:is_hoe_item_destructible')"
+                        }
+                    }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:hoe",
+                    "minecraft:is_hoe",
+                    "mvt:durability"
+                ]
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:enchantable": {
+                "slot": "hoe",
+                "value": 7
+            },
+            "minecraft:durability": {
+                "max_durability": 1000
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:amethyst_shard"
+                        ],
+                        "repair_amount": 312
+                    },
+                    {
+                        "items": [
+                            "mvt:amethyst_hoe"
+                        ],
+                        "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mva:quartz_helmet"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "EEE",
+            "E E"
+        ],
+        "key": {
+            "E": {
+                "item": "minecraft:quartz"
+            }
+        },
+        "result": {
+            "item": "mva:quartz_helmet"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:quartz"
+            }
+        ]
+    }
+}

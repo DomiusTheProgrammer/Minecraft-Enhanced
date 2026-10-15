@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mvt:obsidian_pickaxe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "CCC",
+            " S ",
+            " S "
+        ],
+        "key": {
+            "C": {
+                "item": "mvt:obsidian_shard"
+            },
+            "S": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "mvt:obsidian_pickaxe"
+        },
+        "unlock": [
+            {
+                "item": "mvt:obsidian_shard"
+            }
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mva:obsidian_chestplate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "X X",
+            "XXX",
+            "XXX"
+        ],
+        "key": {
+            "X": {
+                "item": "minecraft:obsidian"
+            }
+        },
+        "result": {
+            "item": "mva:obsidian_chestplate"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:obsidian"
+            }
+        ]
+    }
+}

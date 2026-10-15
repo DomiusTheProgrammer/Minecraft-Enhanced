@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mva:quartz_chestplate"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "E E",
+            "EEE",
+            "EEE"
+        ],
+        "key": {
+            "E": {
+                "item": "minecraft:quartz"
+            }
+        },
+        "result": {
+            "item": "mva:quartz_chestplate"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:quartz"
+            }
+        ]
+    }
+}

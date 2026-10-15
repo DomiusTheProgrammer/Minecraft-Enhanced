@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mva:emerald_helmet"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "EEE",
+            "E E"
+        ],
+        "key": {
+            "E": {
+                "item": "minecraft:emerald"
+            }
+        },
+        "result": {
+            "item": "mva:emerald_helmet"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:emerald"
+            }
+        ]
+    }
+}

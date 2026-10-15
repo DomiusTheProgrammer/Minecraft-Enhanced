@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mvt:quartz_shovel"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "C",
+            "S",
+            "S"
+        ],
+        "key": {
+            "C": {
+                "item": "minecraft:quartz"
+            },
+            "S": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "mvt:quartz_shovel"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:quartz"
+            }
+        ]
+    }
+}

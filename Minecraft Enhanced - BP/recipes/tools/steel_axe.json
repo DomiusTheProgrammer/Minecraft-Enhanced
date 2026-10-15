@@ -1,0 +1,33 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "vx:steel_axe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "vv ",
+            "v/ ",
+            " / "
+        ],
+        "key": {
+            "v": {
+                "item": "vx:steel_ingot"
+            },
+            "/": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "vx:steel_axe",
+            "count": 1
+        },
+        "unlock": [
+            {
+                "item": "vx:steel_ingot"
+            }
+        ]
+    }
+}
