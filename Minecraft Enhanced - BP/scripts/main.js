@@ -1,5 +1,13 @@
 import { system, world } from "@minecraft/server";
 
+system.beforeEvents.startup.subscribe(({ itemComponentRegistry }) => {
+  itemComponentRegistry.registerCustomComponent("me:sword_durability", {
+    onBeforeDurabilityDamage(event) {
+      event.durabilityDamage = 1;
+    },
+  });
+});
+
 const toolTypes = new Set(["axe", "hoe", "pickaxe", "shovel"]);
 const effectiveBlockTags = new Map([
   [

@@ -13,6 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:quartz_sword.name"
             },
+            "me:sword_durability": {},
             "minecraft:icon": {
                 "texture": "me:quartz_sword"
             },
