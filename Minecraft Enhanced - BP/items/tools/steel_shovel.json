@@ -30,6 +30,7 @@
             },
             "minecraft:tags": {
                 "tags": [
+                    "minecraft:shovel",
                     "minecraft:is_shovel",
                     "minecraft:iron_tier",
                     "minecraft:transformable_items"

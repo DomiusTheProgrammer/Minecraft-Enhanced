@@ -30,6 +30,7 @@
             },
             "minecraft:tags": {
                 "tags": [
+                    "minecraft:hoe",
                     "minecraft:is_hoe"
                 ]
             },

@@ -19,6 +19,7 @@
             "minecraft:damage": 8,
             "minecraft:tags": {
                 "tags": [
+                    "minecraft:sword",
                     "minecraft:is_sword"
                 ]
             },

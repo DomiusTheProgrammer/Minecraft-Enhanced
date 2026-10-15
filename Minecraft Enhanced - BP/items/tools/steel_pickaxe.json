@@ -30,6 +30,7 @@
             },
             "minecraft:tags": {
                 "tags": [
+                    "minecraft:pickaxe",
                     "minecraft:is_pickaxe",
                     "minecraft:iron_tier",
                     "minecraft:transformable_items"

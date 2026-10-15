@@ -30,6 +30,7 @@
             },
             "minecraft:tags": {
                 "tags": [
+                    "minecraft:pickaxe",
                     "minecraft:is_pickaxe"
                 ]
             },

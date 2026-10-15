@@ -19,6 +19,7 @@
             "minecraft:damage": 7,
             "minecraft:tags": {
                 "tags": [
+                    "minecraft:sword",
                     "minecraft:is_sword",
                     "minecraft:iron_tier",
                     "minecraft:transformable_items"

@@ -30,6 +30,7 @@
             },
             "minecraft:tags": {
                 "tags": [
+                    "minecraft:axe",
                     "minecraft:is_axe",
                     "minecraft:iron_tier",
                     "minecraft:transformable_items"

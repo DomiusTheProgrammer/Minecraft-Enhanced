@@ -32,6 +32,7 @@
             },
             "minecraft:tags": {
                 "tags": [
+                    "minecraft:sword",
                     "minecraft:is_sword"
                 ]
             },

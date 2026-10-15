@@ -36,6 +36,7 @@
             },
             "minecraft:tags": {
                 "tags": [
+                    "minecraft:axe",
                     "minecraft:is_axe"
                 ]
             },
