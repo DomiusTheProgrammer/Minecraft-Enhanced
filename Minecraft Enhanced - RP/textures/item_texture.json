@@ -1,0 +1,138 @@
+{
+  "resource_pack_name": "Minecraft Enhanced - RP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "amethyst_axe": {
+      "textures": "textures/items/amethyst_axe"
+    },
+    "amethyst_boots": {
+      "textures": "textures/items/amethyst_boots"
+    },
+    "amethyst_chestplate": {
+      "textures": "textures/items/amethyst_chestplate"
+    },
+    "amethyst_helmet": {
+      "textures": "textures/items/amethyst_helmet"
+    },
+    "amethyst_hoe": {
+      "textures": "textures/items/amethyst_hoe"
+    },
+    "amethyst_leggings": {
+      "textures": "textures/items/amethyst_leggings"
+    },
+    "amethyst_pickaxe": {
+      "textures": "textures/items/amethyst_pickaxe"
+    },
+    "amethyst_shovel": {
+      "textures": "textures/items/amethyst_shovel"
+    },
+    "amethyst_sword": {
+      "textures": "textures/items/amethyst_sword"
+    },
+    "emerald_axe": {
+      "textures": "textures/items/emerald_axe"
+    },
+    "emerald_boots": {
+      "textures": "textures/items/emerald_boots"
+    },
+    "emerald_chestplate": {
+      "textures": "textures/items/emerald_chestplate"
+    },
+    "emerald_helmet": {
+      "textures": "textures/items/emerald_helmet"
+    },
+    "emerald_hoe": {
+      "textures": "textures/items/emerald_hoe"
+    },
+    "emerald_leggings": {
+      "textures": "textures/items/emerald_leggings"
+    },
+    "emerald_pickaxe": {
+      "textures": "textures/items/emerald_pickaxe"
+    },
+    "emerald_shovel": {
+      "textures": "textures/items/emerald_shovel"
+    },
+    "emerald_sword": {
+      "textures": "textures/items/emerald_sword"
+    },
+    "obsidian_axe": {
+      "textures": "textures/items/obsidian_axe"
+    },
+    "obsidian_hoe": {
+      "textures": "textures/items/obsidian_hoe"
+    },
+    "obsidian_pickaxe": {
+      "textures": "textures/items/obsidian_pickaxe"
+    },
+    "obsidian_shard": {
+      "textures": "textures/items/obsidian_shard"
+    },
+    "obsidian_shovel": {
+      "textures": "textures/items/obsidian_shovel"
+    },
+    "obsidian_sword": {
+      "textures": "textures/items/obsidian_sword"
+    },
+    "quartz_axe": {
+      "textures": "textures/items/quartz_axe"
+    },
+    "quartz_boots": {
+      "textures": "textures/items/quartz_boots"
+    },
+    "quartz_chestplate": {
+      "textures": "textures/items/quartz_chestplate"
+    },
+    "quartz_helmet": {
+      "textures": "textures/items/quartz_helmet"
+    },
+    "quartz_hoe": {
+      "textures": "textures/items/quartz_hoe"
+    },
+    "quartz_leggings": {
+      "textures": "textures/items/quartz_leggings"
+    },
+    "quartz_pickaxe": {
+      "textures": "textures/items/quartz_pickaxe"
+    },
+    "quartz_shovel": {
+      "textures": "textures/items/quartz_shovel"
+    },
+    "quartz_sword": {
+      "textures": "textures/items/quartz_sword"
+    },
+    "steel_axe": {
+      "textures": "textures/items/steel_axe"
+    },
+    "steel_boots": {
+      "textures": "textures/items/steel_boots"
+    },
+    "steel_chestplate": {
+      "textures": "textures/items/steel_chestplate"
+    },
+    "steel_helmet": {
+      "textures": "textures/items/steel_helmet"
+    },
+    "steel_hoe": {
+      "textures": "textures/items/steel_hoe"
+    },
+    "steel_ingot": {
+      "textures": "textures/items/steel_ingot"
+    },
+    "steel_leggings": {
+      "textures": "textures/items/steel_leggings"
+    },
+    "steel_nugget": {
+      "textures": "textures/items/steel_nugget"
+    },
+    "steel_pickaxe": {
+      "textures": "textures/items/steel_pickaxe"
+    },
+    "steel_shovel": {
+      "textures": "textures/items/steel_shovel"
+    },
+    "steel_sword": {
+      "textures": "textures/items/steel_sword"
+    }
+  }
+}

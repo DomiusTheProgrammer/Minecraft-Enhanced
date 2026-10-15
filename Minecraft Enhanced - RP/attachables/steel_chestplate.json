@@ -1,8 +1,8 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.26.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "vx:steel_chestplate",
+      "identifier": "me:steel_chestplate",
       "render_controllers": [
         "controller.render.armor"
       ],

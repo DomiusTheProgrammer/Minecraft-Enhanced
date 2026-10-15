@@ -1,8 +1,8 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.26.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "mva:quartz_chestplate",
+      "identifier": "me:quartz_chestplate",
       "render_controllers": [
         "controller.render.armor"
       ],
