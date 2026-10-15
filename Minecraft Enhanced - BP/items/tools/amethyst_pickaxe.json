@@ -10,6 +10,9 @@
         },
         "components": {
             "minecraft:max_stack_size": 1,
+            "minecraft:display_name": {
+                "value": "me:amethyst_pickaxe.name"
+            },
             "minecraft:icon": {
                 "texture": "me:amethyst_pickaxe"
             },

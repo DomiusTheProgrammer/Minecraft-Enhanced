@@ -10,12 +10,15 @@
         },
         "components": {
             "minecraft:max_stack_size": 1,
+            "minecraft:display_name": {
+                "value": "me:emerald_sword.name"
+            },
             "minecraft:icon": {
                 "texture": "me:emerald_sword"
             },
             "minecraft:damage": 6,
             "minecraft:tags": {
-                "tags": []
+                "tags": ["minecraft:is_sword"]
             },
             "minecraft:digger": {
                 "use_efficiency": true,

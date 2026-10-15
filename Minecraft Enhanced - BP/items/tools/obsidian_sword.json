@@ -10,12 +10,15 @@
         },
         "components": {
             "minecraft:max_stack_size": 1,
+            "minecraft:display_name": {
+                "value": "me:obsidian_sword.name"
+            },
             "minecraft:icon": {
                 "texture": "me:obsidian_sword"
             },
             "minecraft:damage": 8,
             "minecraft:tags": {
-                "tags": []
+                "tags": ["minecraft:is_sword"]
             },
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
