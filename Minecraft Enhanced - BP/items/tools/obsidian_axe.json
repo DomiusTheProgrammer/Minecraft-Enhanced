@@ -40,7 +40,7 @@
                 "value": 8
             },
             "minecraft:durability": {
-                "max_durability": 375
+                "max_durability": 200
             },
             "minecraft:repairable": {
                 "repair_items": [

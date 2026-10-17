@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "me:tin_block_to_tin_ingots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "me:tin_block"
+      }
+    ],
+    "result": {
+      "item": "me:tin_ingot",
+      "count": 9
+    }
+  }
+}

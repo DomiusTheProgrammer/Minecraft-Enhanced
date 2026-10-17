@@ -16,7 +16,7 @@
             "minecraft:icon": {
                 "texture": "me:obsidian_sword"
             },
-            "minecraft:damage": 8,
+            "minecraft:damage": 12,
             "minecraft:tags": {
                 "tags": [
                     "minecraft:sword",
@@ -26,7 +26,7 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "sword",
-                "value": 16
+                "value": 14
             },
             "minecraft:digger": {
                 "use_efficiency": true,
@@ -42,7 +42,7 @@
                 ]
             },
             "minecraft:durability": {
-                "max_durability": 375
+                "max_durability": 150
             },
             "minecraft:repairable": {
                 "repair_items": [

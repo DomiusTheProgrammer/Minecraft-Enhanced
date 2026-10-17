@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "me:raw_tin_block",
+      "menu_category": {
+        "category": "construction",
+        "group": "itemGroup.name.ore"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3.0
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "me:raw_tin_block",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:loot": "loot_tables/blocks/raw_tin_block.json",
+      "minecraft:light_dampening": 15,
+      "minecraft:friction": 0.6,
+      "minecraft:tags": {
+        "tags": [
+          "metal",
+          "stone",
+          "minecraft:is_pickaxe_item_destructible",
+          "minecraft:iron_tier_destructible"
+        ]
+      }
+    }
+  }
+}

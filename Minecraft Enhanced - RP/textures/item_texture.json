@@ -133,6 +133,21 @@
     },
     "me:steel_sword": {
       "textures": "textures/items/steel_sword"
+    },
+    "me:tin_ore": {
+      "textures": "textures/items/tin_ore"
+    },
+    "me:tin_block": {
+      "textures": "textures/items/tin_block"
+    },
+    "me:raw_tin": {
+      "textures": "textures/items/raw_tin"
+    },
+    "me:raw_tin_block": {
+      "textures": "textures/items/raw_tin_block"
+    },
+    "me:tin_ingot": {
+      "textures": "textures/items/tin_ingot"
     }
   }
 }

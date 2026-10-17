@@ -1,0 +1,12 @@
+{
+  "format_version": "1.21.0",
+  "me:tin_block": {
+    "sound": "metal"
+  },
+  "me:tin_ore": {
+    "sound": "stone"
+  },
+  "me:raw_tin_block": {
+    "sound": "stone"
+  }
+}

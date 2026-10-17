@@ -1,0 +1,22 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "me:tin_ore_scatter_feature"
+    },
+    "places_feature": "me:tin_ore_feature",
+    "iterations": 16,
+    "x": {
+      "distribution": "uniform",
+      "extent": [0, 16]
+    },
+    "y": {
+      "distribution": "triangle",
+      "extent": [0, 120]
+    },
+    "z": {
+      "distribution": "uniform",
+      "extent": [0, 16]
+    }
+  }
+}
