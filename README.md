@@ -9,7 +9,7 @@ Minecraft Enhanced is a Bedrock Edition add-on that adds new equipment and small
 3. In the world settings, enable both **Minecraft Enhanced - BP** and **Minecraft Enhanced - RP**.
 4. Join the world and enjoy!
 
-The pack manifests specify Minecraft **1.21.120 or newer** and the `@minecraft/server` Script API **2.0.0**.
+The pack manifests specify Minecraft **1.21.130 or newer** and the `@minecraft/server` Script API **2.0.0**.
 
 ## Features
 
@@ -34,4 +34,3 @@ To work on the add-on, edit the source files in these folders. To test changes i
 ## Contributing
 
 Bug reports and suggestions are welcome. Please include your Minecraft version, steps to reproduce the issue, and any relevant error messages from the Content Log.
-
