@@ -15,6 +15,11 @@
     "result": {
       "item": "me:raw_tin",
       "count": 9
-    }
+    },
+    "unlock": [
+      {
+        "item": "me:raw_tin"
+      }
+    ]
   }
 }

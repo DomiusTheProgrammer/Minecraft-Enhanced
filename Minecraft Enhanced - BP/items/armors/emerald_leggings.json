@@ -18,9 +18,7 @@
             "minecraft:display_name": {
                 "value": "item.me:emerald_leggings.name"
             },
-            "minecraft:icon": {
-                "texture": "me:emerald_leggings"
-            },
+            "minecraft:icon": "me:emerald_leggings",
             "minecraft:wearable": {
                 "slot": "slot.armor.legs",
                 "protection": 6

@@ -12,9 +12,7 @@
       "minecraft:display_name": {
         "value": "item.me:tin_ingot.name"
       },
-      "minecraft:icon": {
-        "texture": "me:tin_ingot"
-      }
+      "minecraft:icon": "me:tin_ingot"
     }
   }
 }

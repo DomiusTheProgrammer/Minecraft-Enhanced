@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:steel_sword.name"
             },
-            "minecraft:icon": {
-                "texture": "me:steel_sword"
-            },
+            "minecraft:icon": "me:steel_sword",
             "minecraft:damage": 7,
             "minecraft:tags": {
                 "tags": [

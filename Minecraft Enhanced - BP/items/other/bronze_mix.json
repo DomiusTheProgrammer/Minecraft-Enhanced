@@ -12,9 +12,7 @@
       "minecraft:display_name": {
         "value": "item.me:bronze_mix.name"
       },
-      "minecraft:icon": {
-        "texture": "me:bronze_mix"
-      }
+      "minecraft:icon": "me:bronze_mix"
     }
   }
 }

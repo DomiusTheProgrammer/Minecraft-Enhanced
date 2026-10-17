@@ -18,9 +18,7 @@
             "minecraft:display_name": {
                 "value": "item.me:quartz_chestplate.name"
             },
-            "minecraft:icon": {
-                "texture": "me:quartz_chestplate"
-            },
+            "minecraft:icon": "me:quartz_chestplate",
             "minecraft:wearable": {
                 "slot": "slot.armor.chest",
                 "protection": 5

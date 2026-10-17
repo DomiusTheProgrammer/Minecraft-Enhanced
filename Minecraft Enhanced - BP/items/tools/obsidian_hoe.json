@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:obsidian_hoe.name"
             },
-            "minecraft:icon": {
-                "texture": "me:obsidian_hoe"
-            },
+            "minecraft:icon": "me:obsidian_hoe",
             "minecraft:damage": 8,
             "minecraft:digger": {
                 "use_efficiency": true,

@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:obsidian_sword.name"
             },
-            "minecraft:icon": {
-                "texture": "me:obsidian_sword"
-            },
+            "minecraft:icon": "me:obsidian_sword",
             "minecraft:damage": 12,
             "minecraft:tags": {
                 "tags": [

@@ -18,9 +18,7 @@
             "minecraft:display_name": {
                 "value": "item.me:amethyst_chestplate.name"
             },
-            "minecraft:icon": {
-                "texture": "me:amethyst_chestplate"
-            },
+            "minecraft:icon": "me:amethyst_chestplate",
             "minecraft:wearable": {
                 "slot": "slot.armor.chest",
                 "protection": 8

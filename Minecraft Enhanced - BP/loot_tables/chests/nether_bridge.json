@@ -84,21 +84,6 @@
         },
         {
           "type": "item",
-          "name": "minecraft:horsearmorgold",
-          "weight": 8
-        },
-        {
-          "type": "item",
-          "name": "minecraft:horsearmoriron",
-          "weight": 5
-        },
-        {
-          "type": "item",
-          "name": "minecraft:horsearmordiamond",
-          "weight": 3
-        },
-        {
-          "type": "item",
           "name": "minecraft:obsidian",
           "functions": [
             {
@@ -123,7 +108,7 @@
         },
         {
           "type": "item",
-          "name": "me:obsidian_chestplate",
+          "name": "me:obsidian_shard",
           "weight": 5
         },
         {

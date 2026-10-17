@@ -150,18 +150,6 @@
         },
         {
           "type": "item",
-          "name": "minecraft:horsearmoriron"
-        },
-        {
-          "type": "item",
-          "name": "minecraft:horsearmorgold"
-        },
-        {
-          "type": "item",
-          "name": "minecraft:horsearmordiamond"
-        },
-        {
-          "type": "item",
           "name": "me:steel_ingot",
           "functions": [
             {

@@ -18,9 +18,7 @@
             "minecraft:display_name": {
                 "value": "item.me:steel_helmet.name"
             },
-            "minecraft:icon": {
-                "texture": "me:steel_helmet"
-            },
+            "minecraft:icon": "me:steel_helmet",
             "minecraft:wearable": {
                 "slot": "slot.armor.head",
                 "protection": 3

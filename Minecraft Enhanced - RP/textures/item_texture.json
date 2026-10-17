@@ -29,9 +29,6 @@
     "me:amethyst_sword": {
       "textures": "textures/items/amethyst_sword"
     },
-    "me:amethyst_spear": {
-      "textures": "textures/items/amethyst_spear"
-    },
     "me:emerald_axe": {
       "textures": "textures/items/emerald_axe"
     },
@@ -59,9 +56,6 @@
     "me:emerald_sword": {
       "textures": "textures/items/emerald_sword"
     },
-    "me:emerald_spear": {
-      "textures": "textures/items/emerald_spear"
-    },
     "me:obsidian_axe": {
       "textures": "textures/items/obsidian_axe"
     },
@@ -79,9 +73,6 @@
     },
     "me:obsidian_sword": {
       "textures": "textures/items/obsidian_sword"
-    },
-    "me:obsidian_spear": {
-      "textures": "textures/items/obsidian_spear"
     },
     "me:quartz_axe": {
       "textures": "textures/items/quartz_axe"
@@ -109,9 +100,6 @@
     },
     "me:quartz_sword": {
       "textures": "textures/items/quartz_sword"
-    },
-    "me:quartz_spear": {
-      "textures": "textures/items/quartz_spear"
     },
     "me:steel_axe": {
       "textures": "textures/items/steel_axe"
@@ -146,9 +134,6 @@
     "me:steel_sword": {
       "textures": "textures/items/steel_sword"
     },
-    "me:steel_spear": {
-      "textures": "textures/items/steel_spear"
-    },
     "me:tin_ore": {
       "textures": "textures/items/tin_ore"
     },
@@ -164,17 +149,44 @@
     "me:tin_ingot": {
       "textures": "textures/items/tin_ingot"
     },
-    "me:tin_spear": {
-      "textures": "textures/items/tin_spear"
-    },
     "me:bronze_mix": {
       "textures": "textures/items/bronze_mix"
     },
     "me:bronze_ingot": {
       "textures": "textures/items/bronze_ingot"
     },
-    "me:bronze_spear": {
-      "textures": "textures/items/bronze_spear"
+    "me:bronze_axe": {
+      "textures": "textures/items/bronze_axe"
+    },
+    "me:bronze_boots": {
+      "textures": "textures/items/bronze_boots"
+    },
+    "me:bronze_chestplate": {
+      "textures": "textures/items/bronze_chestplate"
+    },
+    "me:bronze_helmet": {
+      "textures": "textures/items/bronze_helmet"
+    },
+    "me:bronze_hoe": {
+      "textures": "textures/items/bronze_hoe"
+    },
+    "me:bronze_leggings": {
+      "textures": "textures/items/bronze_leggings"
+    },
+    "me:bronze_pickaxe": {
+      "textures": "textures/items/bronze_pickaxe"
+    },
+    "me:bronze_shovel": {
+      "textures": "textures/items/bronze_shovel"
+    },
+    "me:bronze_sword": {
+      "textures": "textures/items/bronze_sword"
+    },
+    "me:bronze_nugget": {
+      "textures": "textures/items/bronze_nugget"
+    },
+    "me:raw_steel": {
+      "textures": "textures/items/raw_steel"
     }
   }
 }

@@ -18,9 +18,7 @@
             "minecraft:display_name": {
                 "value": "item.me:quartz_helmet.name"
             },
-            "minecraft:icon": {
-                "texture": "me:quartz_helmet"
-            },
+            "minecraft:icon": "me:quartz_helmet",
             "minecraft:wearable": {
                 "slot": "slot.armor.head",
                 "protection": 2

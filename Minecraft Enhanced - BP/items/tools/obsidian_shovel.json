@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:obsidian_shovel.name"
             },
-            "minecraft:icon": {
-                "texture": "me:obsidian_shovel"
-            },
+            "minecraft:icon": "me:obsidian_shovel",
             "minecraft:damage": 8,
             "minecraft:digger": {
                 "use_efficiency": true,

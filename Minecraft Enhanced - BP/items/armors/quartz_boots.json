@@ -18,9 +18,7 @@
             "minecraft:display_name": {
                 "value": "item.me:quartz_boots.name"
             },
-            "minecraft:icon": {
-                "texture": "me:quartz_boots"
-            },
+            "minecraft:icon": "me:quartz_boots",
             "minecraft:wearable": {
                 "slot": "slot.armor.feet",
                 "protection": 1

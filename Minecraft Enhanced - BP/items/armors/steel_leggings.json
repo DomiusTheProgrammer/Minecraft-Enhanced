@@ -18,9 +18,7 @@
             "minecraft:display_name": {
                 "value": "item.me:steel_leggings.name"
             },
-            "minecraft:icon": {
-                "texture": "me:steel_leggings"
-            },
+            "minecraft:icon": "me:steel_leggings",
             "minecraft:wearable": {
                 "slot": "slot.armor.legs",
                 "protection": 5

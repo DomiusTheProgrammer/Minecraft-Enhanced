@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:steel_hoe.name"
             },
-            "minecraft:icon": {
-                "texture": "me:steel_hoe"
-            },
+            "minecraft:icon": "me:steel_hoe",
             "minecraft:damage": 7,
             "minecraft:digger": {
                 "use_efficiency": true,

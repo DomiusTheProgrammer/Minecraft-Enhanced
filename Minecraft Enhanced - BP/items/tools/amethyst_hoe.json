@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:amethyst_hoe.name"
             },
-            "minecraft:icon": {
-                "texture": "me:amethyst_hoe"
-            },
+            "minecraft:icon": "me:amethyst_hoe",
             "minecraft:damage": 6,
             "minecraft:digger": {
                 "use_efficiency": true,

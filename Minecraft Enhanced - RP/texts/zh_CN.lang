@@ -23,6 +23,7 @@ item.me:obsidian_hoe.name=黑曜石锄
 item.me:obsidian_pickaxe.name=黑曜石镐
 item.me:obsidian_shovel.name=黑曜石铲
 item.me:obsidian_sword.name=黑曜石剑
+item.me:obsidian_shard.name=黑曜石碎片
 
 item.me:quartz_axe.name=石英斧
 item.me:quartz_boots.name=石英靴子
@@ -53,11 +54,3 @@ tile.me:tin_block.name=锡块
 tile.me:raw_tin_block.name=粗锡块
 item.me:bronze_mix.name=青铜混合物
 item.me:bronze_ingot.name=青铜锭
-
-item.me:bronze_spear.name=???
-item.me:tin_spear.name=??
-item.me:steel_spear.name=??
-item.me:quartz_spear.name=???
-item.me:emerald_spear.name=????
-item.me:amethyst_spear.name=???
-item.me:obsidian_spear.name=????

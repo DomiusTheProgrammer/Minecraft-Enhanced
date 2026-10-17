@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:quartz_axe.name"
             },
-            "minecraft:icon": {
-                "texture": "me:quartz_axe"
-            },
+            "minecraft:icon": "me:quartz_axe",
             "minecraft:damage": 5,
             "minecraft:digger": {
                 "use_efficiency": true,

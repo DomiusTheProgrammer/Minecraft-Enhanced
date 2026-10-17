@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:amethyst_axe.name"
             },
-            "minecraft:icon": {
-                "texture": "me:amethyst_axe"
-            },
+            "minecraft:icon": "me:amethyst_axe",
             "minecraft:damage": 6,
             "minecraft:digger": {
                 "use_efficiency": true,

@@ -12,9 +12,7 @@
       "minecraft:display_name": {
         "value": "item.me:bronze_ingot.name"
       },
-      "minecraft:icon": {
-        "texture": "me:bronze_ingot"
-      }
+      "minecraft:icon": "me:bronze_ingot"
     }
   }
 }

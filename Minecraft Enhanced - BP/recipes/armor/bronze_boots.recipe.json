@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "me:bronze_boots"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "v v",
+            "v v"
+        ],
+        "key": {
+            "v": {
+                "item": "me:bronze_ingot"
+            }
+        },
+        "result": {
+            "item": "me:bronze_boots",
+            "count": 1
+        },
+        "unlock": [
+            {
+                "item": "me:bronze_ingot"
+            }
+        ]
+    }
+}

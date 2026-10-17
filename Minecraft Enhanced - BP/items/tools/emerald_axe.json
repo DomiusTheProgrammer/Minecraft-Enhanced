@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:emerald_axe.name"
             },
-            "minecraft:icon": {
-                "texture": "me:emerald_axe"
-            },
+            "minecraft:icon": "me:emerald_axe",
             "minecraft:damage": 6,
             "minecraft:digger": {
                 "use_efficiency": true,

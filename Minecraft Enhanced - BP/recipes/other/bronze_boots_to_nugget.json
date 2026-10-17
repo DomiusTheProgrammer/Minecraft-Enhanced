@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "me:bronze_boots_to_nugget"
+        },
+        "unlock": [
+            {
+                "item": "me:bronze_boots"
+            }
+        ],
+        "tags": [
+            "furnace",
+            "blast_furnace"
+        ],
+        "input": "me:bronze_boots",
+        "output": "me:bronze_nugget"
+    }
+}

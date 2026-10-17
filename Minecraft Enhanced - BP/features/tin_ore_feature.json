@@ -4,13 +4,12 @@
     "description": {
       "identifier": "me:tin_ore_feature"
     },
-    "count": 8,
+    "count": 4,
     "replace_rules": [
       {
         "places_block": "me:tin_ore",
         "may_replace": [
-          "minecraft:stone",
-          "minecraft:deepslate"
+          "minecraft:stone"
         ]
       }
     ]

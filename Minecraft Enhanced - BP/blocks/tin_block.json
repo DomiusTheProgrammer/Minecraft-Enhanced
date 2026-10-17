@@ -4,8 +4,7 @@
     "description": {
       "identifier": "me:tin_block",
       "menu_category": {
-        "category": "construction",
-        "group": "itemGroup.name.ore"
+        "category": "nature"
       }
     },
     "components": {
@@ -22,13 +21,10 @@
       "minecraft:loot": "loot_tables/blocks/tin_block.json",
       "minecraft:light_dampening": 15,
       "minecraft:friction": 0.6,
-      "minecraft:tags": {
-        "tags": [
-          "minecraft:metal",
-          "minecraft:stone",
-          "minecraft:is_pickaxe_item_destructible"
-        ]
-      }
+      "tag:minecraft:is_pickaxe_item_destructible": {},
+      "tag:minecraft:iron_tier_destructible": {},
+      "tag:stone": {},
+      "tag:metal": {}
     }
   }
 }

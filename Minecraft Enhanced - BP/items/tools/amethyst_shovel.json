@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:amethyst_shovel.name"
             },
-            "minecraft:icon": {
-                "texture": "me:amethyst_shovel"
-            },
+            "minecraft:icon": "me:amethyst_shovel",
             "minecraft:damage": 6,
             "minecraft:digger": {
                 "use_efficiency": true,

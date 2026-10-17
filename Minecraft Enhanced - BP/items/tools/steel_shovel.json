@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:steel_shovel.name"
             },
-            "minecraft:icon": {
-                "texture": "me:steel_shovel"
-            },
+            "minecraft:icon": "me:steel_shovel",
             "minecraft:damage": 7,
             "minecraft:digger": {
                 "use_efficiency": true,

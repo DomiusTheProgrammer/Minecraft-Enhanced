@@ -12,9 +12,7 @@
       "minecraft:display_name": {
         "value": "item.me:raw_tin.name"
       },
-      "minecraft:icon": {
-        "texture": "me:raw_tin"
-      }
+      "minecraft:icon": "me:raw_tin"
     }
   }
 }

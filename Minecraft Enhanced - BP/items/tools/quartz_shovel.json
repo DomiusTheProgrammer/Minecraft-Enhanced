@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:quartz_shovel.name"
             },
-            "minecraft:icon": {
-                "texture": "me:quartz_shovel"
-            },
+            "minecraft:icon": "me:quartz_shovel",
             "minecraft:damage": 5,
             "minecraft:digger": {
                 "use_efficiency": true,

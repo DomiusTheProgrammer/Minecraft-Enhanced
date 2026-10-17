@@ -18,9 +18,7 @@
             "minecraft:display_name": {
                 "value": "item.me:emerald_helmet.name"
             },
-            "minecraft:icon": {
-                "texture": "me:emerald_helmet"
-            },
+            "minecraft:icon": "me:emerald_helmet",
             "minecraft:wearable": {
                 "slot": "slot.armor.head",
                 "protection": 3

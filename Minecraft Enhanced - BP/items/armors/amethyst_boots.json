@@ -18,9 +18,7 @@
             "minecraft:display_name": {
                 "value": "item.me:amethyst_boots.name"
             },
-            "minecraft:icon": {
-                "texture": "me:amethyst_boots"
-            },
+            "minecraft:icon": "me:amethyst_boots",
             "minecraft:wearable": {
                 "slot": "slot.armor.feet",
                 "protection": 3

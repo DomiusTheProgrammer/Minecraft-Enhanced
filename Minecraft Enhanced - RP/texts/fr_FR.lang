@@ -23,6 +23,7 @@ item.me:obsidian_hoe.name=Houe en obsidienne
 item.me:obsidian_pickaxe.name=Pioche en obsidienne
 item.me:obsidian_shovel.name=Pelle en obsidienne
 item.me:obsidian_sword.name=Épée en obsidienne
+item.me:obsidian_shard.name=Éclat d’obsidienne
 
 item.me:quartz_axe.name=Hache en quartz
 item.me:quartz_boots.name=Bottes en quartz
@@ -53,11 +54,3 @@ tile.me:tin_block.name=Bloc d’étain
 tile.me:raw_tin_block.name=Bloc d’étain brut
 item.me:bronze_mix.name=Mélange de bronze
 item.me:bronze_ingot.name=Lingot de bronze
-
-item.me:bronze_spear.name=Lance de Bronze
-item.me:tin_spear.name=Lance d'?tain
-item.me:steel_spear.name=Lance d'Acier
-item.me:quartz_spear.name=Lance de Quartz
-item.me:emerald_spear.name=Lance d'?meraude
-item.me:amethyst_spear.name=Lance d'Am?thyste
-item.me:obsidian_spear.name=Lance d'Obsidienne

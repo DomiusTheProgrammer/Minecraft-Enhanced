@@ -18,9 +18,7 @@
             "minecraft:display_name": {
                 "value": "item.me:amethyst_helmet.name"
             },
-            "minecraft:icon": {
-                "texture": "me:amethyst_helmet"
-            },
+            "minecraft:icon": "me:amethyst_helmet",
             "minecraft:wearable": {
                 "slot": "slot.armor.head",
                 "protection": 3

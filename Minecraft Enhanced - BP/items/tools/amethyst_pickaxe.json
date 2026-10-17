@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:amethyst_pickaxe.name"
             },
-            "minecraft:icon": {
-                "texture": "me:amethyst_pickaxe"
-            },
+            "minecraft:icon": "me:amethyst_pickaxe",
             "minecraft:damage": 6,
             "minecraft:digger": {
                 "use_efficiency": true,

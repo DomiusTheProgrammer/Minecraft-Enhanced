@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:steel_axe.name"
             },
-            "minecraft:icon": {
-                "texture": "me:steel_axe"
-            },
+            "minecraft:icon": "me:steel_axe",
             "minecraft:damage": 7,
             "minecraft:digger": {
                 "use_efficiency": true,

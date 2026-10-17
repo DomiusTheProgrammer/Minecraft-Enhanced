@@ -85,7 +85,8 @@ function getMainhand(entity) {
 }
 
 function damageHeldTool(player, expectedTypeId, amount = 1) {
-  if (player.getGameMode() === GameMode.creative) return;
+  // @minecraft/server 2.x uses GameMode.Creative (PascalCase), 1.x used .creative
+  if (String(player.getGameMode()).toLowerCase() === "creative") return;
 
   const held = getMainhand(player);
   if (!held || held.item.typeId !== expectedTypeId) return;
@@ -237,6 +238,7 @@ world.afterEvents.playerBreakBlock.subscribe((event) => {
 // Sword: attacking costs 1 durability.
 world.afterEvents.entityHitEntity.subscribe((event) => {
   const attacker = event.damagingEntity;
+  if (attacker.typeId !== "minecraft:player") return;
 
   system.run(() => {
     const held = getMainhand(attacker);

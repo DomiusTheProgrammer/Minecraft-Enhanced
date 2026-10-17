@@ -18,9 +18,7 @@
             "minecraft:display_name": {
                 "value": "item.me:amethyst_leggings.name"
             },
-            "minecraft:icon": {
-                "texture": "me:amethyst_leggings"
-            },
+            "minecraft:icon": "me:amethyst_leggings",
             "minecraft:wearable": {
                 "slot": "slot.armor.legs",
                 "protection": 6

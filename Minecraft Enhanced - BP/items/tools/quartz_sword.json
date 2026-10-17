@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:quartz_sword.name"
             },
-            "minecraft:icon": {
-                "texture": "me:quartz_sword"
-            },
+            "minecraft:icon": "me:quartz_sword",
             "minecraft:damage": 5,
             "minecraft:digger": {
                 "use_efficiency": true,

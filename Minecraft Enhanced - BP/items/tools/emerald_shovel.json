@@ -13,9 +13,7 @@
             "minecraft:display_name": {
                 "value": "item.me:emerald_shovel.name"
             },
-            "minecraft:icon": {
-                "texture": "me:emerald_shovel"
-            },
+            "minecraft:icon": "me:emerald_shovel",
             "minecraft:damage": 6,
             "minecraft:digger": {
                 "use_efficiency": true,
