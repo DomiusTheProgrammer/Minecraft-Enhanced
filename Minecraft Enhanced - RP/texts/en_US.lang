@@ -51,3 +51,5 @@ item.me:tin_ingot.name=Tin Ingot
 tile.me:tin_ore.name=Tin Ore
 tile.me:tin_block.name=Tin Block
 tile.me:raw_tin_block.name=Raw Tin Block
+item.me:bronze_mix.name=Bronze Mix
+item.me:bronze_ingot.name=Bronze Ingot

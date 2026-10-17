@@ -51,3 +51,5 @@ item.me:tin_ingot.name=Lingot d’étain
 tile.me:tin_ore.name=Minerai d’étain
 tile.me:tin_block.name=Bloc d’étain
 tile.me:raw_tin_block.name=Bloc d’étain brut
+item.me:bronze_mix.name=Mélange de bronze
+item.me:bronze_ingot.name=Lingot de bronze

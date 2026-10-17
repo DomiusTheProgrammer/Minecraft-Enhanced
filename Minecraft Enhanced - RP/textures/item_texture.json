@@ -148,6 +148,12 @@
     },
     "me:tin_ingot": {
       "textures": "textures/items/tin_ingot"
+    },
+    "me:bronze_mix": {
+      "textures": "textures/items/bronze_mix"
+    },
+    "me:bronze_ingot": {
+      "textures": "textures/items/bronze_ingot"
     }
   }
 }

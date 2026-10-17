@@ -51,3 +51,5 @@ item.me:tin_ingot.name=Zinnbarren
 tile.me:tin_ore.name=Zinnerz
 tile.me:tin_block.name=Zinnblock
 tile.me:raw_tin_block.name=Rohzinnblock
+item.me:bronze_mix.name=Bronzemischung
+item.me:bronze_ingot.name=Bronzebarren

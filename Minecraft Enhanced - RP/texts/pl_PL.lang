@@ -47,3 +47,5 @@ item.me:tin_ingot.name=Sztabka cyny
 tile.me:tin_ore.name=Ruda cyny
 tile.me:tin_block.name=Blok cyny
 tile.me:raw_tin_block.name=Blok surowej cyny
+item.me:bronze_mix.name=Mieszanka brązu
+item.me:bronze_ingot.name=Sztabka brązu

@@ -47,3 +47,5 @@ item.me:tin_ingot.name=Tinbaar
 tile.me:tin_ore.name=Tinerts
 tile.me:tin_block.name=Tinblok
 tile.me:raw_tin_block.name=Blok ruw tin
+item.me:bronze_mix.name=Bronzen mengsel
+item.me:bronze_ingot.name=Bronzen staaf

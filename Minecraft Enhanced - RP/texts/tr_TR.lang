@@ -47,3 +47,5 @@ item.me:tin_ingot.name=Kalay Külçesi
 tile.me:tin_ore.name=Kalay Cevheri
 tile.me:tin_block.name=Kalay Bloğu
 tile.me:raw_tin_block.name=Ham Kalay Bloğu
+item.me:bronze_mix.name=Bronz Karışımı
+item.me:bronze_ingot.name=Bronz Külçesi

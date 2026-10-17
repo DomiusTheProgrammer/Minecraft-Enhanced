@@ -47,3 +47,5 @@ item.me:tin_ingot.name=Barra de estanho
 tile.me:tin_ore.name=Minério de estanho
 tile.me:tin_block.name=Bloco de estanho
 tile.me:raw_tin_block.name=Bloco de estanho bruto
+item.me:bronze_mix.name=Mistura de bronze
+item.me:bronze_ingot.name=Barra de bronze

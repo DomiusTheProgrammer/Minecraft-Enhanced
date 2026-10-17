@@ -24,8 +24,8 @@
       "minecraft:friction": 0.6,
       "minecraft:tags": {
         "tags": [
-          "metal",
-          "stone",
+          "minecraft:metal",
+          "minecraft:stone",
           "minecraft:is_pickaxe_item_destructible"
         ]
       }

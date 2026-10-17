@@ -47,3 +47,5 @@ item.me:tin_ingot.name=Оловянный слиток
 tile.me:tin_ore.name=Оловянная руда
 tile.me:tin_block.name=Блок олова
 tile.me:raw_tin_block.name=Блок необработанного олова
+item.me:bronze_mix.name=Бронзовая смесь
+item.me:bronze_ingot.name=Бронзовый слиток

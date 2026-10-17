@@ -51,3 +51,5 @@ item.me:tin_ingot.name=Lingote de estaño
 tile.me:tin_ore.name=Mineral de estaño
 tile.me:tin_block.name=Bloque de estaño
 tile.me:raw_tin_block.name=Bloque de estaño en bruto
+item.me:bronze_mix.name=Mezcla de bronce
+item.me:bronze_ingot.name=Lingote de bronce

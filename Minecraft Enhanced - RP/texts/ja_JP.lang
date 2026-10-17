@@ -47,3 +47,5 @@ item.me:tin_ingot.name=スズインゴット
 tile.me:tin_ore.name=スズ鉱石
 tile.me:tin_block.name=スズブロック
 tile.me:raw_tin_block.name=粗錫ブロック
+item.me:bronze_mix.name=青銅の混合物
+item.me:bronze_ingot.name=青銅インゴット
