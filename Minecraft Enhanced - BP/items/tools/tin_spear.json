@@ -1,0 +1,47 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:item": {
+    "description": {
+      "identifier": "me:tin_spear"
+    },
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "minecraft:display_name": {
+        "value": "item.me:tin_spear.name"
+      },
+      "minecraft:icon": {
+        "texture": "me:tin_spear"
+      },
+      "minecraft:damage": 7.5,
+      "minecraft:tags": {
+        "tags": [
+          "minecraft:spear"
+        ]
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:enchantable": {
+        "slot": "spear",
+        "value": 14
+      },
+      "minecraft:durability": {
+        "max_durability": 450
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "me:tin_ingot"
+            ],
+            "repair_amount": 315
+          },
+          {
+            "items": [
+              "me:tin_spear"
+            ],
+            "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+          }
+        ]
+      }
+    }
+  }
+}

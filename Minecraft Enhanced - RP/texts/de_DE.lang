@@ -53,3 +53,11 @@ tile.me:tin_block.name=Zinnblock
 tile.me:raw_tin_block.name=Rohzinnblock
 item.me:bronze_mix.name=Bronzemischung
 item.me:bronze_ingot.name=Bronzebarren
+
+item.me:bronze_spear.name=Bronzespeere
+item.me:tin_spear.name=Zinnspeere
+item.me:steel_spear.name=Stahlspeere
+item.me:quartz_spear.name=Quarzspeere
+item.me:emerald_spear.name=Smaragdspeere
+item.me:amethyst_spear.name=Amethystspeere
+item.me:obsidian_spear.name=Obsidianspeere

@@ -49,3 +49,11 @@ tile.me:tin_block.name=Bloco de estanho
 tile.me:raw_tin_block.name=Bloco de estanho bruto
 item.me:bronze_mix.name=Mistura de bronze
 item.me:bronze_ingot.name=Barra de bronze
+
+item.me:bronze_spear.name=Lan?a de Bronze
+item.me:tin_spear.name=Lan?a de Estanho
+item.me:steel_spear.name=Lan?a de A?o
+item.me:quartz_spear.name=Lan?a de Quartzo
+item.me:emerald_spear.name=Lan?a de Esmeralda
+item.me:amethyst_spear.name=Lan?a de Ametista
+item.me:obsidian_spear.name=Lan?a de Obsidiana

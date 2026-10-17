@@ -49,3 +49,11 @@ tile.me:tin_block.name=Tinblok
 tile.me:raw_tin_block.name=Blok ruw tin
 item.me:bronze_mix.name=Bronzen mengsel
 item.me:bronze_ingot.name=Bronzen staaf
+
+item.me:bronze_spear.name=Bronzen Speer
+item.me:tin_spear.name=Tinnen Speer
+item.me:steel_spear.name=Stalen Speer
+item.me:quartz_spear.name=Kwartsspeer
+item.me:emerald_spear.name=Smaragdspeer
+item.me:amethyst_spear.name=Amethystspeer
+item.me:obsidian_spear.name=Obsidiaanspeer

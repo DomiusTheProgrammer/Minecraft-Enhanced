@@ -5,10 +5,10 @@
   "num_mip_levels": 4,
   "texture_data": {
     "me:tin_ore": {
-      "textures": "textures/items/tin_ore"
+      "textures": "textures/blocks/tin_ore"
     },
     "me:tin_block": {
-      "textures": "textures/items/tin_block"
+      "textures": "textures/blocks/tin_block"
     },
     "me:raw_tin_block": {
       "textures": "textures/blocks/raw_tin_block"

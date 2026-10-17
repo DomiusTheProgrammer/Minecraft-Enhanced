@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "me:quartz_spear_recipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "# # ",
+      "# # ",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:quartz"
+      }
+    },
+    "result": {
+      "item": "me:quartz_spear",
+      "count": 1
+    }
+  }
+}

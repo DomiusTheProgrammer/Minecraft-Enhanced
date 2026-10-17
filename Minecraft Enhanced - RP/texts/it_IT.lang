@@ -49,3 +49,11 @@ tile.me:tin_block.name=Blocco di stagno
 tile.me:raw_tin_block.name=Blocco di stagno grezzo
 item.me:bronze_mix.name=Misto di bronzo
 item.me:bronze_ingot.name=Lingotto di bronzo
+
+item.me:bronze_spear.name=Lancia di Bronzo
+item.me:tin_spear.name=Lancia di Stagno
+item.me:steel_spear.name=Lancia d'Acciaio
+item.me:quartz_spear.name=Lancia di Quarzo
+item.me:emerald_spear.name=Lancia di Smeraldo
+item.me:amethyst_spear.name=Lancia di Ametista
+item.me:obsidian_spear.name=Lancia d'Ossidiana

@@ -53,3 +53,11 @@ tile.me:tin_block.name=Tin Block
 tile.me:raw_tin_block.name=Raw Tin Block
 item.me:bronze_mix.name=Bronze Mix
 item.me:bronze_ingot.name=Bronze Ingot
+
+item.me:bronze_spear.name=Bronze Spear
+item.me:tin_spear.name=Tin Spear
+item.me:steel_spear.name=Steel Spear
+item.me:quartz_spear.name=Quartz Spear
+item.me:emerald_spear.name=Emerald Spear
+item.me:amethyst_spear.name=Amethyst Spear
+item.me:obsidian_spear.name=Obsidian Spear

@@ -49,3 +49,11 @@ tile.me:tin_block.name=Kalay Bloğu
 tile.me:raw_tin_block.name=Ham Kalay Bloğu
 item.me:bronze_mix.name=Bronz Karışımı
 item.me:bronze_ingot.name=Bronz Külçesi
+
+item.me:bronze_spear.name=Bronz M?zrak
+item.me:tin_spear.name=Kalay M?zrak
+item.me:steel_spear.name=?elik M?zrak
+item.me:quartz_spear.name=Kuvars M?zrak
+item.me:emerald_spear.name=Z?mr?t M?zrak
+item.me:amethyst_spear.name=Ametist M?zrak
+item.me:obsidian_spear.name=Obsidyen M?zrak

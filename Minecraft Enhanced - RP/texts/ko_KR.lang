@@ -49,3 +49,11 @@ tile.me:tin_block.name=주석 블록
 tile.me:raw_tin_block.name=원석 주석 블록
 item.me:bronze_mix.name=청동 혼합물
 item.me:bronze_ingot.name=청동 주괴
+
+item.me:bronze_spear.name=?? ?
+item.me:tin_spear.name=?? ?
+item.me:steel_spear.name=?? ?
+item.me:quartz_spear.name=?? ?
+item.me:emerald_spear.name=???? ?
+item.me:amethyst_spear.name=??? ?
+item.me:obsidian_spear.name=??? ?

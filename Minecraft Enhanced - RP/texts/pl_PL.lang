@@ -49,3 +49,11 @@ tile.me:tin_block.name=Blok cyny
 tile.me:raw_tin_block.name=Blok surowej cyny
 item.me:bronze_mix.name=Mieszanka brązu
 item.me:bronze_ingot.name=Sztabka brązu
+
+item.me:bronze_spear.name=W??cznia Br?zu
+item.me:tin_spear.name=W??cznia Cyny
+item.me:steel_spear.name=W??cznia Stali
+item.me:quartz_spear.name=W??cznia Kwarcu
+item.me:emerald_spear.name=W??cznia Szmaragdu
+item.me:amethyst_spear.name=W??cznia Ametystu
+item.me:obsidian_spear.name=W??cznia Obsydianu

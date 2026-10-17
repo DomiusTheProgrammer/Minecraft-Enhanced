@@ -53,3 +53,11 @@ tile.me:tin_block.name=Bloc d’étain
 tile.me:raw_tin_block.name=Bloc d’étain brut
 item.me:bronze_mix.name=Mélange de bronze
 item.me:bronze_ingot.name=Lingot de bronze
+
+item.me:bronze_spear.name=Lance de Bronze
+item.me:tin_spear.name=Lance d'?tain
+item.me:steel_spear.name=Lance d'Acier
+item.me:quartz_spear.name=Lance de Quartz
+item.me:emerald_spear.name=Lance d'?meraude
+item.me:amethyst_spear.name=Lance d'Am?thyste
+item.me:obsidian_spear.name=Lance d'Obsidienne
