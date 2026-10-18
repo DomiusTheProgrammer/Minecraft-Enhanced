@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "me:bronze_chestplate_to_nugget"
+        },
+        "unlock": [
+            {
+                "item": "me:bronze_chestplate"
+            }
+        ],
+        "tags": [
+            "furnace",
+            "blast_furnace"
+        ],
+        "input": "me:bronze_chestplate",
+        "output": "me:bronze_nugget"
+    }
+}

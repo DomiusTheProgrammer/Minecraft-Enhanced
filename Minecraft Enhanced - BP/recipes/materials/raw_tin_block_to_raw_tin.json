@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "me:raw_tin_block_to_raw_tin"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "me:raw_tin_block"
+      }
+    ],
+    "result": {
+      "item": "me:raw_tin",
+      "count": 9
+    },
+    "unlock": [
+      {
+        "item": "me:raw_tin"
+      }
+    ]
+  }
+}

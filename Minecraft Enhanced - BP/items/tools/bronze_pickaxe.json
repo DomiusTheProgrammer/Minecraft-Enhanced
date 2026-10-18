@@ -14,12 +14,12 @@
                 "value": "item.me:bronze_pickaxe.name"
             },
             "minecraft:icon": "me:bronze_pickaxe",
-            "minecraft:damage": 6,
+            "minecraft:damage": 4,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 7.0,
+                        "speed": 6.5,
                         "block": {
                             "tags": "query.any_tag('stone', 'minecraft:diamond_tier_destructible', 'minecraft:is_pickaxe_item_destructible', 'minecraft:iron_tier_destructible')"
                         }
@@ -37,10 +37,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "pickaxe",
-                "value": 14
+                "value": 13
             },
             "minecraft:durability": {
-                "max_durability": 380
+                "max_durability": 600
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -48,7 +48,7 @@
                         "items": [
                             "me:bronze_ingot"
                         ],
-                        "repair_amount": 312
+                        "repair_amount": 150
                     },
                     {
                         "items": [

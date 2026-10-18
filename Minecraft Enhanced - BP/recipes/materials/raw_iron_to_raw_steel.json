@@ -1,0 +1,37 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "me:raw_iron_to_raw_steel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:raw_iron"
+      },
+      {
+        "item": "minecraft:sand"
+      },
+      {
+        "item": "minecraft:flint"
+      },
+      {
+        "item": "minecraft:flint"
+      },
+      {
+        "item": "minecraft:flint"
+      }
+    ],
+    "result": {
+      "item": "me:raw_steel",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "minecraft:raw_iron"
+      }
+    ]
+  }
+}

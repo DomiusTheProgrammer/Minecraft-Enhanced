@@ -14,7 +14,7 @@
                 "value": "item.me:steel_sword.name"
             },
             "minecraft:icon": "me:steel_sword",
-            "minecraft:damage": 7,
+            "minecraft:damage": 6.5,
             "minecraft:tags": {
                 "tags": [
                     "minecraft:sword",
@@ -29,7 +29,7 @@
                 "value": 12
             },
             "minecraft:durability": {
-                "max_durability": 1100
+                "max_durability": 1250
             },
             "minecraft:digger": {
                 "use_efficiency": true,
@@ -50,7 +50,7 @@
                         "items": [
                             "me:steel_ingot"
                         ],
-                        "repair_amount": 250
+                        "repair_amount": 300
                     },
                     {
                         "items": [

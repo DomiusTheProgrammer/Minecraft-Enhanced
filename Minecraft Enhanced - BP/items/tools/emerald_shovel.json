@@ -14,12 +14,12 @@
                 "value": "item.me:emerald_shovel.name"
             },
             "minecraft:icon": "me:emerald_shovel",
-            "minecraft:damage": 6,
+            "minecraft:damage": 3.5,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 6.0,
+                        "speed": 7.0,
                         "block": {
                             "tags": "query.any_tag('dirt', 'sand', 'gravel', 'snow', 'minecraft:is_shovel_item_destructible')"
                         }
@@ -35,10 +35,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "shovel",
-                "value": 16
+                "value": 15
             },
             "minecraft:durability": {
-                "max_durability": 350
+                "max_durability": 400
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -46,7 +46,7 @@
                         "items": [
                             "minecraft:emerald"
                         ],
-                        "repair_amount": 175
+                        "repair_amount": 100
                     },
                     {
                         "items": [

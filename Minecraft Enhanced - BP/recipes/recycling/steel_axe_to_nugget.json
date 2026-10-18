@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "me:steel_axe_to_nugget"
+        },
+        "unlock": [
+            {
+                "item": "me:steel_axe"
+            }
+        ],
+        "tags": [
+            "furnace",
+            "blast_furnace"
+        ],
+        "input": "me:steel_axe",
+        "output": "me:steel_nugget"
+    }
+}

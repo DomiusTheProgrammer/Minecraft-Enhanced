@@ -37,10 +37,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "sword",
-                "value": 16
+                "value": 20
             },
             "minecraft:durability": {
-                "max_durability": 450
+                "max_durability": 500
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -48,7 +48,7 @@
                         "items": [
                             "minecraft:amethyst_shard"
                         ],
-                        "repair_amount": 312
+                        "repair_amount": 125
                     },
                     {
                         "items": [

@@ -1,12 +1,12 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Minecraft Enhanced - BP v1.0",
-    "description": "A lightly expanded, vanilla-balanced behavior pack that keeps gameplay familiar while adding small, polished improvements without breaking progression or achievements.",
+    "name": "Minecraft Enhanced - BP v1.1",
+    "description": "A lightly expanded, vanilla-balanced behavior pack that keeps gameplay familiar while adding small, polished improvements without breaking progression or achievements. Added improved behaviors and gameplay enhancements.",
     "uuid": "079de9ca-2a4b-4e85-8b64-fb9ad6d08644",
     "version": [
       1,
-      0,
+      1,
       0
     ],
     "min_engine_version": [
@@ -21,7 +21,7 @@
       "uuid": "ce7d6fc4-6778-4a45-8066-b06bf098467c",
       "version": [
         1,
-        0,
+        1,
         0
       ]
     },
@@ -31,7 +31,7 @@
       "uuid": "3fc4fefa-4d18-4c22-9b60-a0f5e479c917",
       "version": [
         1,
-        0,
+        1,
         0
       ],
       "entry": "scripts/main.js"
@@ -42,7 +42,7 @@
       "uuid": "b06d57ba-d5cf-4bbd-88dc-29ffdb40eb25",
       "version": [
         1,
-        0,
+        1,
         0
       ]
     },
@@ -55,7 +55,7 @@
     "authors": [
       "DomiusTheProgrammer"
     ],
-    "license": "MIT",
+    "license": "CC BY-NC-SA 4.0",
     "product_type": "addon"
   }
 }

@@ -14,12 +14,12 @@
                 "value": "item.me:emerald_pickaxe.name"
             },
             "minecraft:icon": "me:emerald_pickaxe",
-            "minecraft:damage": 6,
+            "minecraft:damage": 4,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 6.0,
+                        "speed": 7.0,
                         "block": {
                             "tags": "query.any_tag('stone', 'iron_pick_diggable', 'minecraft:is_pickaxe_item_destructible')"
                         }
@@ -35,10 +35,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "pickaxe",
-                "value": 16
+                "value": 15
             },
             "minecraft:durability": {
-                "max_durability": 350
+                "max_durability": 400
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -46,7 +46,7 @@
                         "items": [
                             "minecraft:emerald"
                         ],
-                        "repair_amount": 175
+                        "repair_amount": 100
                     },
                     {
                         "items": [

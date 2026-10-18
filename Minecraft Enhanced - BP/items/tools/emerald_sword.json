@@ -37,10 +37,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "sword",
-                "value": 16
+                "value": 15
             },
             "minecraft:durability": {
-                "max_durability": 350
+                "max_durability": 400
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -48,7 +48,7 @@
                         "items": [
                             "minecraft:emerald"
                         ],
-                        "repair_amount": 175
+                        "repair_amount": 100
                     },
                     {
                         "items": [

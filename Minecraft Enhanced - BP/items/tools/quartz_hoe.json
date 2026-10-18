@@ -14,12 +14,12 @@
                 "value": "item.me:quartz_hoe.name"
             },
             "minecraft:icon": "me:quartz_hoe",
-            "minecraft:damage": 5,
+            "minecraft:damage": 1,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 7.0,
+                        "speed": 5.0,
                         "block": {
                             "tags": "query.any_tag('plant', 'crop', 'leaves', 'minecraft:is_hoe_item_destructible')"
                         }
@@ -35,10 +35,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "hoe",
-                "value": 7
+                "value": 25
             },
             "minecraft:durability": {
-                "max_durability": 175
+                "max_durability": 200
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -46,7 +46,7 @@
                         "items": [
                             "minecraft:quartz"
                         ],
-                        "repair_amount": 45
+                        "repair_amount": 50
                     },
                     {
                         "items": [

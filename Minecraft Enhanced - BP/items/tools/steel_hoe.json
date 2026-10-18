@@ -14,12 +14,12 @@
                 "value": "item.me:steel_hoe.name"
             },
             "minecraft:icon": "me:steel_hoe",
-            "minecraft:damage": 7,
+            "minecraft:damage": 1,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 8.0,
+                        "speed": 7.0,
                         "block": {
                             "tags": "query.any_tag('plant', 'crop', 'leaves', 'minecraft:is_hoe_item_destructible')"
                         }
@@ -40,7 +40,7 @@
                 "value": 12
             },
             "minecraft:durability": {
-                "max_durability": 1100
+                "max_durability": 1250
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -48,7 +48,7 @@
                         "items": [
                             "me:steel_ingot"
                         ],
-                        "repair_amount": 250
+                        "repair_amount": 300
                     },
                     {
                         "items": [

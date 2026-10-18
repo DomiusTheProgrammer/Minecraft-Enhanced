@@ -14,12 +14,12 @@
                 "value": "item.me:obsidian_axe.name"
             },
             "minecraft:icon": "me:obsidian_axe",
-            "minecraft:damage": 8,
+            "minecraft:damage": 7,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 12.0,
+                        "speed": 10.0,
                         "block": {
                             "tags": "query.any_tag('minecraft:is_tool_item_destructible','minecraft:is_axe_item_destructible')"
                         }
@@ -35,10 +35,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "axe",
-                "value": 8
+                "value": 5
             },
             "minecraft:durability": {
-                "max_durability": 200
+                "max_durability": 250
             },
             "minecraft:repairable": {
                 "repair_items": [

@@ -39,10 +39,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "sword",
-                "value": 14
+                "value": 13
             },
             "minecraft:durability": {
-                "max_durability": 380
+                "max_durability": 600
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -50,7 +50,7 @@
                         "items": [
                             "me:bronze_ingot"
                         ],
-                        "repair_amount": 250
+                        "repair_amount": 150
                     },
                     {
                         "items": [

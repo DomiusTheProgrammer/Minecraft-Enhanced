@@ -14,7 +14,7 @@
                 "value": "item.me:amethyst_pickaxe.name"
             },
             "minecraft:icon": "me:amethyst_pickaxe",
-            "minecraft:damage": 6,
+            "minecraft:damage": 4,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
@@ -35,10 +35,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "pickaxe",
-                "value": 16
+                "value": 20
             },
             "minecraft:durability": {
-                "max_durability": 450
+                "max_durability": 500
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -46,7 +46,7 @@
                         "items": [
                             "minecraft:amethyst_shard"
                         ],
-                        "repair_amount": 312
+                        "repair_amount": 125
                     },
                     {
                         "items": [

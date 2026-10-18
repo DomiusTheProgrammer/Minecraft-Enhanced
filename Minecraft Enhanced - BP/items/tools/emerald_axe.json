@@ -14,12 +14,12 @@
                 "value": "item.me:emerald_axe.name"
             },
             "minecraft:icon": "me:emerald_axe",
-            "minecraft:damage": 6,
+            "minecraft:damage": 5,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 6.0,
+                        "speed": 7.0,
                         "block": {
                             "tags": "query.any_tag('minecraft:is_tool_item_destructible','minecraft:is_axe_item_destructible')"
                         }
@@ -35,10 +35,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "axe",
-                "value": 16
+                "value": 15
             },
             "minecraft:durability": {
-                "max_durability": 350
+                "max_durability": 400
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -46,7 +46,7 @@
                         "items": [
                             "minecraft:emerald"
                         ],
-                        "repair_amount": 175
+                        "repair_amount": 100
                     },
                     {
                         "items": [

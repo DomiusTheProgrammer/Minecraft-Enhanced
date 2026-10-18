@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "me:bronze_shovel_to_nugget"
+        },
+        "unlock": [
+            {
+                "item": "me:bronze_shovel"
+            }
+        ],
+        "tags": [
+            "furnace",
+            "blast_furnace"
+        ],
+        "input": "me:bronze_shovel",
+        "output": "me:bronze_nugget"
+    }
+}

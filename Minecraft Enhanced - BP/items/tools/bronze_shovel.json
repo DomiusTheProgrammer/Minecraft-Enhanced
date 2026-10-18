@@ -14,12 +14,12 @@
                 "value": "item.me:bronze_shovel.name"
             },
             "minecraft:icon": "me:bronze_shovel",
-            "minecraft:damage": 6,
+            "minecraft:damage": 3.5,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 7.0,
+                        "speed": 6.5,
                         "block": {
                             "tags": "query.any_tag('dirt', 'sand', 'gravel', 'snow', 'minecraft:is_shovel_item_destructible')"
                         }
@@ -37,10 +37,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "shovel",
-                "value": 14
+                "value": 13
             },
             "minecraft:durability": {
-                "max_durability": 380
+                "max_durability": 600
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -48,7 +48,7 @@
                         "items": [
                             "me:bronze_ingot"
                         ],
-                        "repair_amount": 200
+                        "repair_amount": 150
                     },
                     {
                         "items": [

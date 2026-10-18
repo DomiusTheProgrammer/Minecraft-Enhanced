@@ -14,7 +14,7 @@
                 "value": "item.me:obsidian_sword.name"
             },
             "minecraft:icon": "me:obsidian_sword",
-            "minecraft:damage": 12,
+            "minecraft:damage": 8,
             "minecraft:tags": {
                 "tags": [
                     "minecraft:sword",
@@ -24,7 +24,7 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "sword",
-                "value": 14
+                "value": 5
             },
             "minecraft:digger": {
                 "use_efficiency": true,
@@ -40,7 +40,7 @@
                 ]
             },
             "minecraft:durability": {
-                "max_durability": 150
+                "max_durability": 250
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -48,7 +48,7 @@
                         "items": [
                             "me:obsidian_shard"
                         ],
-                        "repair_amount": 175
+                        "repair_amount": 60
                     },
                     {
                         "items": [

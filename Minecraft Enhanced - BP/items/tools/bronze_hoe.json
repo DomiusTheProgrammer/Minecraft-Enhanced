@@ -14,12 +14,12 @@
                 "value": "item.me:bronze_hoe.name"
             },
             "minecraft:icon": "me:bronze_hoe",
-            "minecraft:damage": 6,
+            "minecraft:damage": 1,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 7.0,
+                        "speed": 6.5,
                         "block": {
                             "tags": "query.any_tag('plant', 'crop', 'leaves', 'minecraft:is_hoe_item_destructible')"
                         }
@@ -37,10 +37,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "hoe",
-                "value": 14
+                "value": 13
             },
             "minecraft:durability": {
-                "max_durability": 380
+                "max_durability": 600
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -48,7 +48,7 @@
                         "items": [
                             "me:bronze_ingot"
                         ],
-                        "repair_amount": 250
+                        "repair_amount": 150
                     },
                     {
                         "items": [

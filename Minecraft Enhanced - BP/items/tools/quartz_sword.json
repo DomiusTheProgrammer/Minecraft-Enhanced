@@ -37,10 +37,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "sword",
-                "value": 7
+                "value": 25
             },
             "minecraft:durability": {
-                "max_durability": 175
+                "max_durability": 200
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -48,7 +48,7 @@
                         "items": [
                             "minecraft:quartz"
                         ],
-                        "repair_amount": 45
+                        "repair_amount": 50
                     },
                     {
                         "items": [

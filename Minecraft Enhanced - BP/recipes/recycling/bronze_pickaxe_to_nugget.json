@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "me:bronze_pickaxe_to_nugget"
+        },
+        "unlock": [
+            {
+                "item": "me:bronze_pickaxe"
+            }
+        ],
+        "tags": [
+            "furnace",
+            "blast_furnace"
+        ],
+        "input": "me:bronze_pickaxe",
+        "output": "me:bronze_nugget"
+    }
+}

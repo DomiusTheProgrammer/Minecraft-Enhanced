@@ -14,12 +14,12 @@
                 "value": "item.me:obsidian_hoe.name"
             },
             "minecraft:icon": "me:obsidian_hoe",
-            "minecraft:damage": 8,
+            "minecraft:damage": 1,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 12.0,
+                        "speed": 10.0,
                         "block": {
                             "tags": "query.any_tag('plant', 'crop', 'leaves', 'minecraft:is_hoe_item_destructible')"
                         }
@@ -35,10 +35,10 @@
             "minecraft:hand_equipped": true,
             "minecraft:enchantable": {
                 "slot": "hoe",
-                "value": 8
+                "value": 5
             },
             "minecraft:durability": {
-                "max_durability": 150
+                "max_durability": 250
             },
             "minecraft:repairable": {
                 "repair_items": [

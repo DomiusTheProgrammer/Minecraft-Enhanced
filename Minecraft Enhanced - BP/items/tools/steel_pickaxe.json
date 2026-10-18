@@ -14,12 +14,12 @@
                 "value": "item.me:steel_pickaxe.name"
             },
             "minecraft:icon": "me:steel_pickaxe",
-            "minecraft:damage": 7,
+            "minecraft:damage": 4.5,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 8.0,
+                        "speed": 7.0,
                         "block": {
                             "tags": "query.any_tag('stone', 'minecraft:diamond_tier_destructible', 'minecraft:is_pickaxe_item_destructible', 'minecraft:iron_tier_destructible')"
                         }
@@ -40,7 +40,7 @@
                 "value": 12
             },
             "minecraft:durability": {
-                "max_durability": 1100
+                "max_durability": 1250
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -48,7 +48,7 @@
                         "items": [
                             "me:steel_ingot"
                         ],
-                        "repair_amount": 312
+                        "repair_amount": 300
                     },
                     {
                         "items": [

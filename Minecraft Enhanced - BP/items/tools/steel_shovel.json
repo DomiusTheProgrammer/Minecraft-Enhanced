@@ -14,12 +14,12 @@
                 "value": "item.me:steel_shovel.name"
             },
             "minecraft:icon": "me:steel_shovel",
-            "minecraft:damage": 7,
+            "minecraft:damage": 4,
             "minecraft:digger": {
                 "use_efficiency": true,
                 "destroy_speeds": [
                     {
-                        "speed": 8.0,
+                        "speed": 7.0,
                         "block": {
                             "tags": "query.any_tag('dirt', 'sand', 'gravel', 'snow', 'minecraft:is_shovel_item_destructible')"
                         }
@@ -40,7 +40,7 @@
                 "value": 12
             },
             "minecraft:durability": {
-                "max_durability": 1100
+                "max_durability": 1250
             },
             "minecraft:repairable": {
                 "repair_items": [
@@ -48,7 +48,7 @@
                         "items": [
                             "me:steel_ingot"
                         ],
-                        "repair_amount": 200
+                        "repair_amount": 300
                     },
                     {
                         "items": [
