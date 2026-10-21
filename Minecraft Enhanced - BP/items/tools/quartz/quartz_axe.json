@@ -1,0 +1,63 @@
+{
+    "format_version": "1.21.30",
+    "minecraft:item": {
+        "description": {
+            "identifier": "me:quartz_axe",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.axe"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+"minecraft:custom_components": ["me:durability"],
+            "minecraft:display_name": {
+                "value": "item.me:quartz_axe.name"
+            },
+            "minecraft:icon": "me:quartz_axe",
+            "minecraft:damage": 4,
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "speed": 5.0,
+                        "block": {
+                            "tags": "query.any_tag('minecraft:is_tool_item_destructible','minecraft:is_axe_item_destructible')"
+                        }
+                    }
+                ]
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:axe",
+                    "minecraft:is_axe"
+                ]
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:enchantable": {
+                "slot": "axe",
+                "value": 25
+            },
+            "minecraft:durability": {
+                "damage_chance": {"min": 0, "max": 0},
+                "max_durability": 200
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "minecraft:quartz"
+                        ],
+                        "repair_amount": 50
+                    },
+                    {
+                        "items": [
+                            "me:quartz_axe"
+                        ],
+                        "repair_amount": "context.other->q.remaining_durability + 0.05 * context.other->q.max_durability"
+                    }
+                ]
+            }
+        }
+    }
+}

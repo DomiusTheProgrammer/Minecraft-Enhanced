@@ -8,9 +8,7 @@
     "replace_rules": [
       {
         "places_block": "me:tin_ore",
-        "may_replace": [
-          "minecraft:stone"
-        ]
+        "may_replace": ["minecraft:stone"]
       }
     ]
   }

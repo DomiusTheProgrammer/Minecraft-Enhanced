@@ -1,6 +1,3 @@
 {
-  "values": [
-    ".welcomeMessage",
-    "armor_bonuses"
-  ]
+  "values": ["welcome_Message", "armor_bonuses"]
 }

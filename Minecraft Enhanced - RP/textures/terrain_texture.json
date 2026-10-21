@@ -10,6 +10,12 @@
     "me:tin_block": {
       "textures": "textures/blocks/tin_block"
     },
+    "me:bronze_block": {
+      "textures": "textures/blocks/bronze_block"
+    },
+    "me:steel_block": {
+      "textures": "textures/blocks/steel_block"
+    },
     "me:raw_tin_block": {
       "textures": "textures/blocks/raw_tin_block"
     }

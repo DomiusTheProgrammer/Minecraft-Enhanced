@@ -5,7 +5,16 @@
       "entries": [
         {
           "type": "item",
-          "name": "me:raw_tin"
+          "name": "me:raw_tin",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
         }
       ]
     }

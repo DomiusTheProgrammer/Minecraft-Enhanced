@@ -3,136 +3,136 @@
   "texture_name": "atlas.items",
   "texture_data": {
     "me:amethyst_axe": {
-      "textures": "textures/items/tools/amethyst_axe"
+      "textures": "textures/items/tools/amethyst/amethyst_axe"
     },
     "me:amethyst_boots": {
-      "textures": "textures/items/armor/amethyst_boots"
+      "textures": "textures/items/armor/amethyst/amethyst_boots"
     },
     "me:amethyst_chestplate": {
-      "textures": "textures/items/armor/amethyst_chestplate"
+      "textures": "textures/items/armor/amethyst/amethyst_chestplate"
     },
     "me:amethyst_helmet": {
-      "textures": "textures/items/armor/amethyst_helmet"
+      "textures": "textures/items/armor/amethyst/amethyst_helmet"
     },
     "me:amethyst_hoe": {
-      "textures": "textures/items/tools/amethyst_hoe"
+      "textures": "textures/items/tools/amethyst/amethyst_hoe"
     },
     "me:amethyst_leggings": {
-      "textures": "textures/items/armor/amethyst_leggings"
+      "textures": "textures/items/armor/amethyst/amethyst_leggings"
     },
     "me:amethyst_pickaxe": {
-      "textures": "textures/items/tools/amethyst_pickaxe"
+      "textures": "textures/items/tools/amethyst/amethyst_pickaxe"
     },
     "me:amethyst_shovel": {
-      "textures": "textures/items/tools/amethyst_shovel"
+      "textures": "textures/items/tools/amethyst/amethyst_shovel"
     },
     "me:amethyst_sword": {
-      "textures": "textures/items/tools/amethyst_sword"
+      "textures": "textures/items/tools/amethyst/amethyst_sword"
     },
     "me:emerald_axe": {
-      "textures": "textures/items/tools/emerald_axe"
+      "textures": "textures/items/tools/emerald/emerald_axe"
     },
     "me:emerald_boots": {
-      "textures": "textures/items/armor/emerald_boots"
+      "textures": "textures/items/armor/emerald/emerald_boots"
     },
     "me:emerald_chestplate": {
-      "textures": "textures/items/armor/emerald_chestplate"
+      "textures": "textures/items/armor/emerald/emerald_chestplate"
     },
     "me:emerald_helmet": {
-      "textures": "textures/items/armor/emerald_helmet"
+      "textures": "textures/items/armor/emerald/emerald_helmet"
     },
     "me:emerald_hoe": {
-      "textures": "textures/items/tools/emerald_hoe"
+      "textures": "textures/items/tools/emerald/emerald_hoe"
     },
     "me:emerald_leggings": {
-      "textures": "textures/items/armor/emerald_leggings"
+      "textures": "textures/items/armor/emerald/emerald_leggings"
     },
     "me:emerald_pickaxe": {
-      "textures": "textures/items/tools/emerald_pickaxe"
+      "textures": "textures/items/tools/emerald/emerald_pickaxe"
     },
     "me:emerald_shovel": {
-      "textures": "textures/items/tools/emerald_shovel"
+      "textures": "textures/items/tools/emerald/emerald_shovel"
     },
     "me:emerald_sword": {
-      "textures": "textures/items/tools/emerald_sword"
+      "textures": "textures/items/tools/emerald/emerald_sword"
     },
     "me:obsidian_axe": {
-      "textures": "textures/items/tools/obsidian_axe"
+      "textures": "textures/items/tools/obsidian/obsidian_axe"
     },
     "me:obsidian_hoe": {
-      "textures": "textures/items/tools/obsidian_hoe"
+      "textures": "textures/items/tools/obsidian/obsidian_hoe"
     },
     "me:obsidian_pickaxe": {
-      "textures": "textures/items/tools/obsidian_pickaxe"
+      "textures": "textures/items/tools/obsidian/obsidian_pickaxe"
     },
     "me:obsidian_shard": {
       "textures": "textures/items/materials/obsidian_shard"
     },
     "me:obsidian_shovel": {
-      "textures": "textures/items/tools/obsidian_shovel"
+      "textures": "textures/items/tools/obsidian/obsidian_shovel"
     },
     "me:obsidian_sword": {
-      "textures": "textures/items/tools/obsidian_sword"
+      "textures": "textures/items/tools/obsidian/obsidian_sword"
     },
     "me:quartz_axe": {
-      "textures": "textures/items/tools/quartz_axe"
+      "textures": "textures/items/tools/quartz/quartz_axe"
     },
     "me:quartz_boots": {
-      "textures": "textures/items/armor/quartz_boots"
+      "textures": "textures/items/armor/quartz/quartz_boots"
     },
     "me:quartz_chestplate": {
-      "textures": "textures/items/armor/quartz_chestplate"
+      "textures": "textures/items/armor/quartz/quartz_chestplate"
     },
     "me:quartz_helmet": {
-      "textures": "textures/items/armor/quartz_helmet"
+      "textures": "textures/items/armor/quartz/quartz_helmet"
     },
     "me:quartz_hoe": {
-      "textures": "textures/items/tools/quartz_hoe"
+      "textures": "textures/items/tools/quartz/quartz_hoe"
     },
     "me:quartz_leggings": {
-      "textures": "textures/items/armor/quartz_leggings"
+      "textures": "textures/items/armor/quartz/quartz_leggings"
     },
     "me:quartz_pickaxe": {
-      "textures": "textures/items/tools/quartz_pickaxe"
+      "textures": "textures/items/tools/quartz/quartz_pickaxe"
     },
     "me:quartz_shovel": {
-      "textures": "textures/items/tools/quartz_shovel"
+      "textures": "textures/items/tools/quartz/quartz_shovel"
     },
     "me:quartz_sword": {
-      "textures": "textures/items/tools/quartz_sword"
+      "textures": "textures/items/tools/quartz/quartz_sword"
     },
     "me:steel_axe": {
-      "textures": "textures/items/tools/steel_axe"
+      "textures": "textures/items/tools/steel/steel_axe"
     },
     "me:steel_boots": {
-      "textures": "textures/items/armor/steel_boots"
+      "textures": "textures/items/armor/steel/steel_boots"
     },
     "me:steel_chestplate": {
-      "textures": "textures/items/armor/steel_chestplate"
+      "textures": "textures/items/armor/steel/steel_chestplate"
     },
     "me:steel_helmet": {
-      "textures": "textures/items/armor/steel_helmet"
+      "textures": "textures/items/armor/steel/steel_helmet"
     },
     "me:steel_hoe": {
-      "textures": "textures/items/tools/steel_hoe"
+      "textures": "textures/items/tools/steel/steel_hoe"
     },
     "me:steel_ingot": {
       "textures": "textures/items/materials/steel_ingot"
     },
     "me:steel_leggings": {
-      "textures": "textures/items/armor/steel_leggings"
+      "textures": "textures/items/armor/steel/steel_leggings"
     },
     "me:steel_nugget": {
       "textures": "textures/items/materials/steel_nugget"
     },
     "me:steel_pickaxe": {
-      "textures": "textures/items/tools/steel_pickaxe"
+      "textures": "textures/items/tools/steel/steel_pickaxe"
     },
     "me:steel_shovel": {
-      "textures": "textures/items/tools/steel_shovel"
+      "textures": "textures/items/tools/steel/steel_shovel"
     },
     "me:steel_sword": {
-      "textures": "textures/items/tools/steel_sword"
+      "textures": "textures/items/tools/steel/steel_sword"
     },
     "me:tin_ore": {
       "textures": "textures/items/blocks/tin_ore"
@@ -156,31 +156,31 @@
       "textures": "textures/items/materials/bronze_ingot"
     },
     "me:bronze_axe": {
-      "textures": "textures/items/tools/bronze_axe"
+      "textures": "textures/items/tools/bronze/bronze_axe"
     },
     "me:bronze_boots": {
-      "textures": "textures/items/armor/bronze_boots"
+      "textures": "textures/items/armor/bronze/bronze_boots"
     },
     "me:bronze_chestplate": {
-      "textures": "textures/items/armor/bronze_chestplate"
+      "textures": "textures/items/armor/bronze/bronze_chestplate"
     },
     "me:bronze_helmet": {
-      "textures": "textures/items/armor/bronze_helmet"
+      "textures": "textures/items/armor/bronze/bronze_helmet"
     },
     "me:bronze_hoe": {
-      "textures": "textures/items/tools/bronze_hoe"
+      "textures": "textures/items/tools/bronze/bronze_hoe"
     },
     "me:bronze_leggings": {
-      "textures": "textures/items/armor/bronze_leggings"
+      "textures": "textures/items/armor/bronze/bronze_leggings"
     },
     "me:bronze_pickaxe": {
-      "textures": "textures/items/tools/bronze_pickaxe"
+      "textures": "textures/items/tools/bronze/bronze_pickaxe"
     },
     "me:bronze_shovel": {
-      "textures": "textures/items/tools/bronze_shovel"
+      "textures": "textures/items/tools/bronze/bronze_shovel"
     },
     "me:bronze_sword": {
-      "textures": "textures/items/tools/bronze_sword"
+      "textures": "textures/items/tools/bronze/bronze_sword"
     },
     "me:bronze_nugget": {
       "textures": "textures/items/materials/bronze_nugget"

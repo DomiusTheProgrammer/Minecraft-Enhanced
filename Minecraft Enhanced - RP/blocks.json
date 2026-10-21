@@ -1,12 +1,18 @@
 {
-  "format_version": "1.21.0",
-  "me:tin_block": {
-    "sound": "metal"
-  },
-  "me:tin_ore": {
-    "sound": "stone"
-  },
-  "me:raw_tin_block": {
-    "sound": "stone"
-  }
+    "format_version":  "1.21.0",
+    "me:tin_block":  {
+                         "sound":  "iron"
+                     },
+    "me:bronze_block":  {
+                            "sound":  "copper"
+                        },
+    "me:steel_block":  {
+                           "sound":  "iron"
+                       },
+    "me:tin_ore":  {
+                       "sound":  "stone"
+                   },
+    "me:raw_tin_block":  {
+                             "sound":  "stone"
+                         }
 }

@@ -1,36 +1,28 @@
 {
   "format_version": "1.20.10",
-  "minecraft:recipe_shapeless": {
+  "minecraft:recipe_shaped": {
     "description": {
       "identifier": "me:raw_iron_to_raw_steel"
     },
-    "tags": [
-      "crafting_table"
-    ],
-    "ingredients": [
-      {
+    "tags": ["crafting_table"],
+    "pattern": ["XYX", "YZY", "XYX"],
+    "key": {
+      "X": {
         "item": "minecraft:raw_iron"
       },
-      {
-        "item": "minecraft:sand"
+      "Y": {
+        "item": "minecraft:quartz"
       },
-      {
-        "item": "minecraft:flint"
-      },
-      {
-        "item": "minecraft:flint"
-      },
-      {
-        "item": "minecraft:flint"
+      "Z": {
+        "item": "minecraft:magma"
       }
-    ],
+    },
     "result": {
-      "item": "me:raw_steel",
-      "count": 1
+      "item": "me:raw_steel"
     },
     "unlock": [
       {
-        "item": "minecraft:raw_iron"
+        "item": "minecraft:quartz"
       }
     ]
   }
