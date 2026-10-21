@@ -1,7 +1,7 @@
 {
   "format_version": 2,
   "header": {
-    "name": "Minecraft Enhanced - BP v1.1 (Beta)",
+    "name": "Minecraft Enhanced - BP v1.1",
     "description": "A lightly expanded, vanilla-balanced behavior pack that keeps gameplay familiar while adding small, polished improvements without breaking progression or achievements.",
     "uuid": "079de9ca-2a4b-4e85-8b64-fb9ad6d08644",
     "version": [1, 1, 5],
