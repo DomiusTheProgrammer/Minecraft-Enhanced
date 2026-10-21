@@ -2,6 +2,8 @@
 
 Minecraft Enhanced is a Bedrock Edition add-on that adds new equipment and small gameplay improvements while aiming to preserve the feel of vanilla Minecraft.
 
+The latest release is **1.1.5**.
+
 ## Download and install
 
 1. Open the [GitHub Releases](https://github.com/DomiusTheProgrammer/Minecraft-Enhanced/releases) page and download the `.mcaddon` file from the release you want.
@@ -13,12 +15,21 @@ The pack manifests specify Minecraft **1.21.130 or newer** and the `@minecraft/s
 
 ## Features
 
-- Custom tools made from steel, quartz, emerald, amethyst, and obsidian.
-- Custom steel, quartz, emerald, and amethyst armor.
-- Recipes for the added equipment and materials.
+- Custom tools made from bronze, steel, quartz, emerald, amethyst, and obsidian.
+- Custom bronze, steel, quartz, emerald, and amethyst armor.
+- Tin ore, tin materials, and bronze and steel storage blocks.
+- Recipes for the added equipment, materials, and blocks.
 - Additional loot-table entries in selected structures.
 - Tool interactions for stripping logs, tilling soil, creating dirt paths, and extinguishing campfires.
 - Custom item textures and armor attachables.
+
+## What's new in 1.1.5
+
+- Added bronze and steel blocks.
+- Organized armor and tool definitions into material-specific folders.
+- Updated tin block and ore definitions.
+- Fixed the effect applied by the full emerald armor set.
+- Updated pack versions and removed the Beta label.
 
 ## Source code
 
