@@ -4,35 +4,19 @@
     "name": "Minecraft Enhanced - RP v1.1 (Beta)",
     "description": "A refined resource pack that preserves the vanilla feel while adding a cleaner, more polished visual style.",
     "uuid": "b06d57ba-d5cf-4bbd-88dc-29ffdb40eb25",
-    "version": [
-      1,
-      1,
-      1
-    ],
-    "min_engine_version": [
-      1,
-      21,
-      130
-    ]
+    "version": [1, 1, 5],
+    "min_engine_version": [1, 21, 130]
   },
   "modules": [
     {
       "type": "resources",
       "uuid": "cff5836d-48b1-410d-b62f-28fcd25d30c2",
-      "version": [
-        1,
-        1,
-        1
-      ]
+      "version": [1, 1, 5]
     }
   ],
-  "capabilities": [
-    "pbr"
-  ],
+  "capabilities": ["pbr"],
   "metadata": {
-    "authors": [
-      "DomiusTheProgrammer"
-    ],
+    "authors": ["DomiusTheProgrammer"],
     "license": "CC BY-NC-SA 4.0",
     "url": "https://github.com/DomiusTheProgrammer",
     "product_type": "addon"
